@@ -6,7 +6,7 @@ interface ProgramCardProps {
   imageUrl: string
 }
 
-const ProgramCard = ({ type, title, details, duration,  imageUrl }: ProgramCardProps) => {
+const ProgramCard = ({ type, title, details, duration, imageUrl }: ProgramCardProps) => {
   return (
     <div className="rc-CourseCard group relative overflow-hidden h-full rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 bg-white">
       <div className="relative h-48 bg-white overflow-hidden">
