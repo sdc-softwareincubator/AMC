@@ -42,7 +42,7 @@ const Hero = () => {
                 {/* NSDC Logo */}
                 <div className="flex-shrink-0">
                   <img 
-                    src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/nsdc-logo.jpg" 
+                    src="/Images/nsdc-logo.jpg" 
                     alt="NSDC" 
                     className="h-12 w-auto"
                   />
@@ -148,7 +148,7 @@ const Hero = () => {
                                   <div 
                                     className="n2-ss-slide-background-wrap n2-ow absolute left-0 top-0 w-full h-full bg-black bg-no-repeat"
                                     style={{
-                                      backgroundImage: 'url("/Home - AKG Skills - 4-12-2025 11-10-50 pm/Front-pic.jpg")',
+                                      backgroundImage: 'url("/Images/Front-pic.jpg")',
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center center'
                                     }}

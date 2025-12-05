@@ -49,73 +49,73 @@ const SuccessStories = () => {
       name: "Amit Kumar",
       position: "Line Associate, Honda Cars Ltd.",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/Amit-Kumar.jpeg"
+      image: "/Images/Amit-Kumar.jpeg"
     },
     {
       name: "Vishal Kumar",
       position: "Technical Trainee, Hero Motors",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/vishal.jpg"
+      image: "/Images/vishal.jpg"
     },
     {
       name: "Rohit Kumar",
       position: "Quality Engineer, Micromatic Grinding",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/rohit.jpg"
+      image: "/Images/rohit.jpg"
     },
     {
       name: "Pradeep Sharma",
       position: "Assistant Executive, Promada Pvt. Ltd.",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/Pradeep-Sharma.jpg"
+      image: "/Images/Pradeep-Sharma.jpg"
     },
     {
       name: "Ravi Chauhan",
       position: "Cad Engineer, Dimension India Network",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/ravi.jpg"
+      image: "/Images/ravi.jpg"
     },
     {
       name: "Manish Kumar",
       position: "Trainee, Ordance Factory Muradnagar",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/manish.jpg"
+      image: "/Images/manish.jpg"
     },
     {
       name: "Richa Tiwari",
       position: "GET, Emerson",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/richa.jpg"
+      image: "/Images/richa.jpg"
     },
     {
       name: "Yashasvi Pandey",
       position: "Operation Executive, Econship Tech",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/yash.jpg"
+      image: "/Images/yash.jpg"
     },
     {
       name: "Aman Mittal",
       position: "JE/Plant/EWS/BNGN, N.F.Railway",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/aman.jpg"
+      image: "/Images/aman.jpg"
     },
     {
       name: "Bhuvneshwar Pandey",
       position: "Engineer, Loesche India Pvt. Ltd",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/bhuv.jpg"
+      image: "/Images/bhuv.jpg"
     },
     {
       name: "Pawan Kumar",
       position: "Design Engineer, Nipa International",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/pawan.jpg"
+      image: "/Images/pawan.jpg"
     },
     {
       name: "Sushant Kumar",
       position: "Engineer, The HI-Tech Gears Limited",
       email: "[email protected]",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/sushant.jpg"
+      image: "/Images/sushant.jpg"
     }
   ]
 

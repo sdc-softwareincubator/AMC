@@ -1,35 +1,35 @@
 const Campus = () => {
   const facilities = [
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/CANTEEN.png", 
+      img: "/Images/CANTEEN.png", 
       title: "CANTEEN" 
     },
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/FAITH-CENTER.png", 
+      img: "/Images/FAITH-CENTER.png", 
       title: "FAITH CENTER" 
     },
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/gym.png", 
+      img: "/Images/gym.png", 
       title: "GYM" 
     },
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/LIBRARY.png", 
+      img: "/Images/LIBRARY.png", 
       title: "LIBRARY" 
     },
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/SPORTS.png", 
+      img: "/Images/SPORTS.png", 
       title: "SPORTS" 
     },
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/WIFI.png", 
+      img: "/Images/WIFI.png", 
       title: "WIFI" 
     },
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/boys_girls.png", 
+      img: "/Images/boys_girls.png", 
       title: "BOYS & GIRLS HOSTEL" 
     },
     { 
-      img: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/rest.png", 
+      img: "/Images/rest.png", 
       title: "GUEST HOUSE" 
     },
   ]

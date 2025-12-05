@@ -3,15 +3,15 @@ import { Clock } from 'lucide-react'
 
 const Gallery = () => {
   const galleryImages = [
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/18.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/19.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/20.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/21.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/22.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/23.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/24.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/25.jpg",
-    "/Home - AKG Skills - 4-12-2025 11-10-50 pm/26.jpg"
+    "/Images/18.jpg",
+    "/Images/19.jpg",
+    "/Images/20.jpg",
+    "/Images/21.jpg",
+    "/Images/22.jpg",
+    "/Images/23.jpg",
+    "/Images/24.jpg",
+    "/Images/25.jpg",
+    "/Images/26.jpg"
   ]
 
   const [currentPage, setCurrentPage] = useState(0)

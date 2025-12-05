@@ -43,7 +43,7 @@ const Navbar = () => {
               <div className="logo_wrap text-left">
                 <a href="/">
                   <img 
-                    src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/logo.png" 
+                        src="/Images/logo.png"
                     alt="AMC - AKGEC Skills" 
                     className="mt-1 w-full h-auto max-h-12"
                   />
@@ -98,7 +98,7 @@ const Navbar = () => {
             <div className="w-2/12 px-4">
               <div className="header_right_wrap text-right">
                 <img 
-                  src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/nsdc-logo.jpg" 
+                       src="/Images/nsdc-logo.jpg"
                   alt="nsdc" 
                   className="w-full h-auto"
                 />
@@ -187,7 +187,7 @@ const Navbar = () => {
                 <div className="logo_wrap text-left">
                   <a href="/">
                     <img 
-                      src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/logo.png" 
+                           src="/Images/logo.png"
                       alt="AMC - AKGEC Skills" 
                       className="mt-1 w-full h-auto max-h-12"
                     />

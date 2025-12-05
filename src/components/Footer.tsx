@@ -123,7 +123,7 @@ const Footer = () => {
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#1877f2] rounded"
                                                     title="Facebook"
                                                 >
-                                                    <img src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/facebook.jpeg" alt="Facebook" className="w-6 h-6" />
+                                                    <img src="/Images/facebook.jpeg" alt="Facebook" className="w-6 h-6" />
                                                 </a>
                                             </li>
                                             <li>
@@ -134,7 +134,7 @@ const Footer = () => {
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#1da1f2] rounded"
                                                     title="Twitter"
                                                 >
-                                                    <img src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/twitter.jpeg" alt="Twitter" className="w-6 h-6" />
+                                                    <img src="/Images/twitter.jpeg" alt="Twitter" className="w-6 h-6" />
                                                 </a>
                                             </li>
                                             <li>
@@ -145,7 +145,7 @@ const Footer = () => {
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#0077b5] rounded"
                                                     title="LinkedIn"
                                                 >
-                                                    <img src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6" />
+                                                    <img src="/Images/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6" />
                                                 </a>
                                             </li>
                                         </ul>
@@ -276,7 +276,7 @@ const Footer = () => {
                                     className="w-9 h-9 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="Facebook"
                                 >
-                                    <img src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/facebook.jpeg" alt="Facebook" className="w-6 h-6" />
+                                    <img src="/Images/facebook.jpeg" alt="Facebook" className="w-6 h-6 rounded" />
                                 </a>
                             </li>
                             <li>
@@ -287,7 +287,7 @@ const Footer = () => {
                                     className="w-9 h-9 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="Twitter"
                                 >
-                                    <img src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/twitter.jpeg" alt="Twitter" className="w-6 h-6" />
+                                    <img src="/Images/twitter.jpeg" alt="Twitter" className="w-6 h-6 rounded" />
                                 </a>
                             </li>
                             <li>
@@ -298,7 +298,7 @@ const Footer = () => {
                                     className="w-9 h-9 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="LinkedIn"
                                 >
-                                    <img src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6" />
+                                    <img src="/Images/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6 rounded" />
                                 </a>
                             </li>
                         </ul>

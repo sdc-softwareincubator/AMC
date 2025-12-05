@@ -38,8 +38,8 @@ const ProjectCard = ({ image, title, description }: ProjectCardProps) => {
           {/* Icon at bottom */}
           <div className="mt-4 pt-4 border-t border-gray-300">
             <a href="#" title="" target="_self">
-              <img 
-                src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/infra-1.png" 
+                     <img
+                       src="/Images/infra-1.png"
                 alt="Infrastructure" 
                 className="h-8 w-auto"
                 onError={(e) => {
@@ -62,17 +62,17 @@ const Projects = () => {
     {
       title: "Friction stir welding of 6063-T6 aluminum alloy",
       description: "The joining of aluminium should be done in such a way so as to minimize the stresses produced during joining. The joining of aluminum can be done by using welding. Welding used can be of many types' viz. Friction welding, Arc welding, spot welding",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/Friction_1.jpg"
+      image: "/Images/Friction_1.jpg"
     },
     {
       title: "Friction stir processing",
       description: "With the advancement in technology and limited energy resources, now Manufacturing Industries are focusing more towards the material having better strength as compare to its weight and to reduce the material wastage industries are now demanding those processes",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/Friction_2.jpg"
+      image: "/Images/Friction_2.jpg"
     },
     {
       title: "Model Based Approach for Enhancement of Machining Accuracy in Robotic Milling",
       description: "Implantation of various virtual and real time technical parameters so that there should not be any chance of error or accident so that the function can be performed easily and smoothly within a given time frame because the process need to be economic and feasible",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc.jpg"
+      image: "/Images/amc.jpg"
     }
   ]
 

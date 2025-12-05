@@ -43,7 +43,7 @@ const Certification = () => {
                 {/* Certificate Image */}
                 <div className="kc-elm kc_shortcode kc_single_image">
                   <img 
-                    src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/Certificate_1.jpg" 
+                    src="/Images/Certificate_1.jpg" 
                     alt="SIEMENS Certification" 
                     className="w-full h-auto"
                     style={{

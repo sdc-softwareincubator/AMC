@@ -32,7 +32,7 @@ const AboutUs = () => {
                   <div className="kc_wrapper kc-col-inner-container relative h-full">
                     <div className="kc-elm kc_shortcode kc_single_image relative h-full">
                       <img 
-                        src="/Home - AKG Skills - 4-12-2025 11-10-50 pm/about_1.jpg" 
+                        src="/Images/about_1.jpg"
                         alt="AMC - Advanced Manufacturing Centre" 
                         className="w-full h-full object-cover"
                         style={{

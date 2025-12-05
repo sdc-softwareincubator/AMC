@@ -57,62 +57,62 @@ const Infrastructure = () => {
     {
       title: "CNC Vertical Machining Centre - 4 Axis",
       description: "CNC Milling machine for high speed and high precision machining operations with Siemens 828D controller, equipped with rotary table as 4th axis and robot integration features.",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_5.jpg"
+            image: "/Images/amc_5.jpg"
     },
     {
       title: "Slant Bed CNC Lathe (LT-16)",
       description: "Slant bed CNC Lathe is an high-performance turning center equipped with 8 station Bi-directional tool turret, Siemens 828D controller and robot integration features.",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_9.jpg"
+            image: "/Images/amc_9.jpg"
     },
     {
       title: "Robotic Milling - 7 Axis",
       description: "It offers six axis machining ability to machine complex shapes in a single set-up. This gives greater machining productivity compared to performing",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_8.jpg"
+            image: "/Images/amc_8.jpg"
     },
     {
       title: "CNC Drill Tap Machining Centre",
       description: "Vertical Machining Center (VMC) is kept for educational & Industrial purpose and for machining parts in every industrial field to achieve high productivity",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_2.jpg"
+            image: "/Images/amc_2.jpg"
     },
     {
       title: "CNC Lathe (TUTOR)",
       description: "Compact CNC turning machine specially designed & developed for educational & Industrial purpose and for manufacturing Precision Parts capable of cutting",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_3.jpg"
+            image: "/Images/amc_3.jpg"
     },
     {
       title: "Cylindrical Grinding Machine",
       description: "It is an automatic, high precision Universal Hydraulic Cylindrical Grinding Machine for External, Internal or Face grinding of large or heavy components in small to medium",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_7.jpg"
+            image: "/Images/amc_7.jpg"
     },
     {
       title: "TAP SMART CNC Electric Tapping Machine",
       description: "Tap Smart is Flexible arm CNC servo electric tapping machine. Tap Smart's Flexible arm ensure easy hole location and take centre of hole automatically",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_10.jpg"
+            image: "/Images/amc_10.jpg"
     },
     {
       title: "3D CNC Coordinate Measuring Machine",
       description: "It is installed for flexible, reliable and uncompromising quality assurance in Reverse Engineering to achieve most sophisticated highly precise quality",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc.jpg"
+            image: "/Images/amc.jpg"
     },
     {
       title: "3D Scanning with Blue LED Fringe Projection ZEISS COMET",
       description: "The innovative sensor system is extremely compact and light, meaning you can transport it to different application sites without any difficulty.",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_1.jpg"
+            image: "/Images/amc_1.jpg"
     },
     {
       title: "Contour Measuring Machine",
       description: "The SURFCOM NEX 030 is a flexible CNC contour measuring station, to provide outstanding straightness accuracy in the X axis. Contour measuring jobs",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_6.jpg"
+            image: "/Images/amc_6.jpg"
     },
     {
       title: "Vision Measurement Machine",
       description: "These are equipped with high quality CCD, powerful 2D measuring software and computer. The machine can measure various workpiece such as electronic components",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_11.jpg"
+            image: "/Images/amc_11.jpg"
     },
     {
       title: "CNC Surface Rough Measuring Machine",
       description: "SURFCOM FLEX 50A is used to analyze surface parameters in production, incoming goods and final inspection. It is optimally suited for usage in the automotive industry",
-      image: "/Home - AKG Skills - 4-12-2025 11-10-50 pm/amc_4.jpg"
+            image: "/Images/amc_4.jpg"
     }
   ]
 

@@ -83,7 +83,7 @@ const Training = () => {
                         title="Industrial Measurement"
                         details="Basic | Advance"
                         duration="One Week Program for Engineers"
-                        imageUrl="/Home - AKG Skills - 4-12-2025 11-10-50 pm/manuf.jpg"
+                        imageUrl="/Images/manuf.jpg"
                       />
                     </div>
                   </div>
@@ -93,19 +93,35 @@ const Training = () => {
                 <div className="kc-elm kc_col-sm-6 kc_column_inner kc_col-sm-6 w-full md:w-1/2 px-3 md:px-4 mb-4 md:mb-0">
                   <div className="kc_wrapper kc-col-inner-container">
                     <div className="widget widget_wpb_widget kc-elm">
-                      <div className="flex flex-col items-start justify-start text-left h-full py-6 bg-white rounded-lg shadow-md p-6">
-                        {/* Text Content */}
-                        <div className="space-y-3">
-                          <h3 className="text-[#029896] text-xs font-bold uppercase tracking-wider font-['Oswald',sans-serif]">
+                      <div
+                        className="relative overflow-hidden rounded-lg shadow-md h-full min-h-[370px] flex flex-col justify-end p-6"
+                        style={{
+                          backgroundImage: 'linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%), url("/Images/22.jpg")',
+                          backgroundSize: 'cover',
+                          backgroundPosition: 'center',
+                        }}
+                      >
+                        <div className="absolute top-4 left-4">
+                          <img
+                            src="/Images/amc_logo.jpg"
+                            alt="AMC Logo"
+                            className="h-10 w-auto drop-shadow"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).style.display = 'none'
+                            }}
+                          />
+                        </div>
+                        <div className="space-y-3 text-white relative z-10">
+                          <h3 className="text-yellow-400 text-xs font-bold uppercase tracking-wider font-['Oswald',sans-serif]">
                             Industrial Training Program
                           </h3>
-                          <h4 className="text-gray-900 text-xl font-semibold leading-tight font-['Oswald',sans-serif]">
+                          <h4 className="text-white text-xl font-semibold leading-tight font-['Oswald',sans-serif]">
                             Computer Integrated Manufacturing
                           </h4>
-                          <p className="text-gray-600 text-sm leading-relaxed">
+                          <p className="text-gray-100 text-sm leading-relaxed">
                             Milling | Turning | CAD & CAM
                           </p>
-                          <p className="text-gray-600 text-sm font-medium">
+                          <p className="text-gray-100 text-sm font-medium">
                             Six Weeks Summer Training Program for Engineering Students
                           </p>
                         </div>
@@ -123,7 +139,7 @@ const Training = () => {
                         title="Advance Manufacturing"
                         details="Milling | Turning"
                         duration="One Day Program for Beginners"
-                        imageUrl="/Home - AKG Skills - 4-12-2025 11-10-50 pm/manuf_2.jpg"
+                        imageUrl="/Images/manuf_2.jpg"
                       />
                     </div>
                   </div>
@@ -141,7 +157,7 @@ const Training = () => {
                         title="Manufacturing Technologies"
                         details="Basic | Advance"
                         duration="Two Weeks Program for Engineers"
-                        imageUrl="/Home - AKG Skills - 4-12-2025 11-10-50 pm/27.jpg"
+                        imageUrl="/Images/27.jpg"
                       />
                     </div>
                   </div>
@@ -156,7 +172,7 @@ const Training = () => {
                         title="Flexible Manufacturing System"
                         details="Milling | Turning | CAD"
                         duration="Program for Diploma/ ITI Students"
-                        imageUrl="/Home - AKG Skills - 4-12-2025 11-10-50 pm/29.jpg"
+                        imageUrl="/Images/29.jpg"
                       />
                     </div>
                   </div>
@@ -171,7 +187,7 @@ const Training = () => {
                         title="Manufacturing and Inspection"
                         details="CNC Machine | CAD & CAM | Reverse Engg."
                         duration="Six Months Program for Students"
-                        imageUrl="/Home - AKG Skills - 4-12-2025 11-10-50 pm/23.jpg"
+                        imageUrl="/Images/23.jpg"
                       />
                     </div>
                   </div>
@@ -186,7 +202,7 @@ const Training = () => {
                         title="Production Engineering"
                         details="CAD | CAM | Measurements & Metrology"
                         duration="One Month Program for Fresher's"
-                        imageUrl="/Home - AKG Skills - 4-12-2025 11-10-50 pm/manuf_6.jpg"
+                        imageUrl="/Images/manuf_6.jpg"
                       />
                     </div>
                   </div>
