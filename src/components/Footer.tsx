@@ -264,16 +264,16 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Column 4 - Follow Us */}
-                    <div>
-                        <h4 className="font-['Oswald',sans-serif] text-2xl mb-2 mt-0 font-medium leading-tight text-[#c4c4c4]">Follow Us</h4>
-                        <ul className="flex list-none gap-0">
+                     {/* Column 4 - Follow Us */}
+                     <div className="w-full md:w-2/12 px-3 md:px-4 md:pr-8">
+                        <h4 className="font-['Oswald',sans-serif] text-xl mb-3 mt-0 font-medium leading-tight text-white">Follow Us</h4>
+                        <ul className="flex list-none gap-2">
                             <li>
                                 <a 
                                     href="https://facebook.com/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
-                                    className="w-9 h-9 py-1.5 m-0 inline-flex items-center justify-center"
+                                    className="w-6 h-6 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="Facebook"
                                 >
                                     <img src="/Images/facebook.jpeg" alt="Facebook" className="w-6 h-6 rounded" />
@@ -284,7 +284,7 @@ const Footer = () => {
                                     href="https://twitter.com/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
-                                    className="w-9 h-9 py-1.5 m-0 inline-flex items-center justify-center"
+                                    className="w-6 h-6 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="Twitter"
                                 >
                                     <img src="/Images/twitter.jpeg" alt="Twitter" className="w-6 h-6 rounded" />
@@ -295,7 +295,7 @@ const Footer = () => {
                                     href="https://linkedin.com/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
-                                    className="w-9 h-9 py-1.5 m-0 inline-flex items-center justify-center"
+                                    className="w-6 h-6 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="LinkedIn"
                                 >
                                     <img src="/Images/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6 rounded" />
@@ -317,4 +317,3 @@ const Footer = () => {
 }
 
 export default Footer
-
