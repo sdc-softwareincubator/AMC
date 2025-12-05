@@ -26,13 +26,15 @@ const InfrastructureCard = ({ image, title, description }: InfrastructureCardPro
               {title}
             </h4>
           </div>
-          {/* Icon in bottom right corner */}
+          {/* Icon in top right corner */}
           <a 
             href="#"
-            className="absolute bottom-4 right-4 bg-gray-600 bg-opacity-80 hover:bg-opacity-100 p-2 rounded transition"
+            className="absolute top-4 right-4 bg-gray-600 bg-opacity-80 hover:bg-opacity-100 p-2 rounded transition"
             title="View Details"
           >
-            <img src="/Images/infra-1.png" alt="View Details" className="w-6 h-6" />
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </a>
         </div>
         
@@ -53,59 +55,64 @@ const Infrastructure = () => {
 
   const infrastructureItems = [
     {
-      title: "Hydraulic Trainer",
-      description: "Hydraulic trainer facilitates learning of various concepts of Industrial Hydraulics, ranging from Basic to Mobile Hydraulics.",
-      image: "/Images/Hydraulic.jpg"
+      title: "CNC Vertical Machining Centre - 4 Axis",
+      description: "CNC Milling machine for high speed and high precision machining operations with Siemens 828D controller, equipped with rotary table as 4th axis and robot integration features.",
+            image: "/Images/amc_5.jpg"
     },
     {
-      title: "Pneumatic Trainer",
-      description: "This introduces you to the basic principles, laws and components used in pneumatic technology.",
-      image: "/Images/Pneumatic.jpg"
+      title: "Slant Bed CNC Lathe (LT-16)",
+      description: "Slant bed CNC Lathe is an high-performance turning center equipped with 8 station Bi-directional tool turret, Siemens 828D controller and robot integration features.",
+            image: "/Images/amc_9.jpg"
     },
     {
-      title: "Programmable Logic Controller",
-      description: "Industrial controllers like PLC are those that continuously monitors the state of input devices and control the state of output devices.",
-      image: "/Images/Programmable.jpg"
+      title: "Robotic Milling - 7 Axis",
+      description: "It offers six axis machining ability to machine complex shapes in a single set-up. This gives greater machining productivity compared to performing",
+            image: "/Images/amc_8.jpg"
     },
     {
-      title: "Mechatronics Trainer",
-      description: "Mechatronics trainer combines the automation technologies and facilitates learning of product processing and product assembly in a realtime environment.",
-      image: "/Images/Mechatronics.jpg"
+      title: "CNC Drill Tap Machining Centre",
+      description: "Vertical Machining Center (VMC) is kept for educational & Industrial purpose and for machining parts in every industrial field to achieve high productivity",
+            image: "/Images/amc_2.jpg"
     },
     {
-      title: "Industrial Sensorics Trainer",
-      description: "Sensorics trainer, fitted with Pepperl & Fuchs industrial sensors, provides an opportunity to gain specialized technical knowledge on sensors.",
-      image: "/Images/Sensorics.jpg"
+      title: "CNC Lathe (TUTOR)",
+      description: "Compact CNC turning machine specially designed & developed for educational & Industrial purpose and for manufacturing Precision Parts capable of cutting",
+            image: "/Images/amc_3.jpg"
     },
     {
-      title: "Motion Controller",
-      description: "2 Axis Motion Controller facilitates learning of motion control with PLC functions to produce motion proportional to the command signal.",
-      image: "/Images/Motion.jpg"
+      title: "Cylindrical Grinding Machine",
+      description: "It is an automatic, high precision Universal Hydraulic Cylindrical Grinding Machine for External, Internal or Face grinding of large or heavy components in small to medium",
+            image: "/Images/amc_7.jpg"
     },
     {
-      title: "CNC Simulator",
-      description: "CNC Simulator enables simulation of a CNC control system on a PC and facilitates learning of CNC operations & programming.",
-      image: "/Images/CNC.jpg"
+      title: "TAP SMART CNC Electric Tapping Machine",
+      description: "Tap Smart is Flexible arm CNC servo electric tapping machine. Tap Smart's Flexible arm ensure easy hole location and take centre of hole automatically",
+            image: "/Images/amc_10.jpg"
     },
     {
-      title: "WinStudio - SCADA",
-      description: "WinStudio-SCADA is a innovative visualization module software framework for integrated engineering and user-friendly operation.",
-      image: "/Images/WinStudio.jpg"
+      title: "3D CNC Coordinate Measuring Machine",
+      description: "It is installed for flexible, reliable and uncompromising quality assurance in Reverse Engineering to achieve most sophisticated highly precise quality",
+            image: "/Images/amc.jpg"
     },
     {
-      title: "Industry 4.0 Kit",
-      description: "Industry 4.0 Kit is a demonstration kit for the Industrial Internet of Things (IIoT), facilitates learning of basic architecture of IoT.",
-      image: "/Images/Industry.jpg"
+      title: "3D Scanning with Blue LED Fringe Projection ZEISS COMET",
+      description: "The innovative sensor system is extremely compact and light, meaning you can transport it to different application sites without any difficulty.",
+            image: "/Images/amc_1.jpg"
     },
     {
-      title: "Automation Studio",
-      description: "Automation Studio is a circuit design, simulation and project documentation software which facilitates the learning on a virtual platform.",
-      image: "/Images/Automation.jpg"
+      title: "Contour Measuring Machine",
+      description: "The SURFCOM NEX 030 is a flexible CNC contour measuring station, to provide outstanding straightness accuracy in the X axis. Contour measuring jobs",
+            image: "/Images/amc_6.jpg"
     },
     {
-      title: "Pumps and Valves",
-      description: "Cut Section Models from BOSCH Rexroth facilitates learning of Internal constructional features of Pumps and valves.",
-      image: "/Images/pumps.jpg"
+      title: "Vision Measurement Machine",
+      description: "These are equipped with high quality CCD, powerful 2D measuring software and computer. The machine can measure various workpiece such as electronic components",
+            image: "/Images/amc_11.jpg"
+    },
+    {
+      title: "CNC Surface Rough Measuring Machine",
+      description: "SURFCOM FLEX 50A is used to analyze surface parameters in production, incoming goods and final inspection. It is optimally suited for usage in the automotive industry",
+            image: "/Images/amc_4.jpg"
     }
   ]
 
@@ -135,7 +142,7 @@ const Infrastructure = () => {
             <div className="kc-col-container w-full">
               {/* Title Section */}
               <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
+                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                   Infrastructure
                 </h3>
               </div>
@@ -148,7 +155,8 @@ const Infrastructure = () => {
               {/* Introductory Text */}
               <div className="kc-elm kc_text_block text-center mb-10 md:mb-12">
                 <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
-                  The Center of Excellence in Automation Technologies houses state of art equipment in Industrial-Pneumatics, Industrial-Hydraulics, Sensorics, Industrial Control & Drives, IIoT and Automation Studio.
+                  The Centre is having world class infrastructure and facilities comprising of CNC Machine and Robotic Tools, Specialised<br className="hidden md:block" />
+                  Machining Processes and high end Measurement & Metrology setup
                 </p>
               </div>
 

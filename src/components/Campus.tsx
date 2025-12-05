@@ -46,7 +46,7 @@ const Campus = () => {
                 <div>
                   {/* Title Section */}
                   <div className="kc-elm kc-title-wrap text-center mb-4">
-                    <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
+                    <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                       On-Campus Facilities
                     </h3>
                   </div>
@@ -54,13 +54,6 @@ const Campus = () => {
                   {/* Divider Line */}
                   <div className="kc-elm divider_line yline flex justify-center mb-6">
                     <div className="divider_inner divider_line1 bg-yellow-400 h-1 w-16 md:w-20"></div>
-                  </div>
-
-                  {/* Introductory Text */}
-                  <div className="kc-elm kc_text_block mb-6 md:mb-8">
-                    <p className="p1 text-gray-800 text-sm md:text-base leading-relaxed font-normal">
-                      The trainees enjoy comfortable stay with 24 hours power back up & unlimited Internet facility including nutritious food on payment basis.The facility is endowed with good lighting and sufficient ventilation.
-                    </p>
                   </div>
 
                   {/* Facilities Grid - 2 rows of 4 */}
@@ -92,7 +85,7 @@ const Campus = () => {
                 <div>
                   {/* Title Section */}
                   <div className="kc-elm kc-title-wrap text-center mb-4">
-                    <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
+                    <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                       Virtual Tour
                     </h3>
                   </div>

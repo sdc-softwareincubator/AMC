@@ -3,15 +3,15 @@ import { Clock } from 'lucide-react'
 
 const Gallery = () => {
   const galleryImages = [
-    "/Images/a5.jpg",
-    "/Images/a6.jpg",
-    "/Images/a1.jpg",
-    "/Images/a9.jpg",
-    "/Images/a8.jpg",
-    "/Images/a7.jpg",
-    "/Images/a4.jpg",
-    "/Images/a3.jpg",
-    "/Images/a2.jpg"
+    "/Images/18.jpg",
+    "/Images/19.jpg",
+    "/Images/20.jpg",
+    "/Images/21.jpg",
+    "/Images/22.jpg",
+    "/Images/23.jpg",
+    "/Images/24.jpg",
+    "/Images/25.jpg",
+    "/Images/26.jpg"
   ]
 
   const [currentPage, setCurrentPage] = useState(0)
@@ -32,29 +32,19 @@ const Gallery = () => {
 
   const newsItems = [
     {
-      title: "WEBINAR – Industrial Automation for Baba Farid Group of Institutions, Bhatinda",
-      date: "October 30, 2020",
-      link: "https://rexroth.akgecskills.in/news/webinar-industrial-automation-for-baba-farid-group-of-institutions-bhatinda/"
+      title: "TECHNOVATION 2018 – 30th August, 2018",
+      date: "June 20, 2019",
+      link: "#"
     },
     {
-      title: "WEBINAR – Industrial Automation for Medi-Caps University, Indore",
-      date: "June 17, 2020",
-      link: "https://rexroth.akgecskills.in/news/webinar-industrial-automation-for-medi-caps-university-indore/"
+      title: "Specialized Training/ Boot Camp For INDIA SKILLS Participants at AKGEC",
+      date: "June 20, 2019",
+      link: "#"
     },
     {
-      title: "WEBINAR – Industrial Automation: Level 1",
-      date: "May 2, 2020",
-      link: "https://rexroth.akgecskills.in/news/webinar-industrial-automation-level-1/"
-    },
-    {
-      title: "WEBINAR – Programmable Logic Controller",
-      date: "June 6, 2020",
-      link: "https://rexroth.akgecskills.in/news/webinar-programmable-logic-controller/"
-    },
-    {
-      title: "Industrial Internship Program – 2020",
-      date: "June 16, 2020",
-      link: "https://rexroth.akgecskills.in/news/industrial-internship-program-2020/"
+      title: "AKGEC Won Advance Robotics Challenge : 15-16th September, 2018",
+      date: "June 20, 2019",
+      link: "#"
     }
   ]
 
@@ -70,7 +60,7 @@ const Gallery = () => {
                 <div className="lg:col-span-2">
                   {/* Title Section */}
                   <div className="kc-elm kc-title-wrap mb-4">
-                    <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
+                    <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                       Photo Gallery
                     </h3>
                   </div>
@@ -83,7 +73,7 @@ const Gallery = () => {
                   {/* Introductory Text */}
                   <div className="kc-elm kc_text_block mb-6 md:mb-8">
                     <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
-                      Catch a glimpse of the state of art technology centre, and associated events.
+                      The trainees enjoy comfortable stay with 24 hours power back up & unlimited Internet facility including nutritious food on payment basis.The facility is endowed with good lighting and sufficient ventilation.
                     </p>
                   </div>
 
@@ -128,9 +118,7 @@ const Gallery = () => {
                     {/* View All Button */}
                     <div className="text-center">
                       <a 
-                        href="https://rexroth.akgecskills.in/photo-gallery/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="#"
                         className="inline-block px-6 py-2 text-sm border-2 border-yellow-400 text-yellow-600 rounded-md hover:bg-yellow-400 hover:text-white transition-all duration-300 font-medium"
                       >
                         View All

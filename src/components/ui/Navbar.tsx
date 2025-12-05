@@ -43,7 +43,7 @@ const Navbar = () => {
               <div className="logo_wrap text-left">
                 <a href="/">
                   <img 
-                        src="/Images/bosch.png"
+                        src="/Images/logo.png"
                     alt="AMC - AKGEC Skills" 
                     className="mt-1 w-full h-auto max-h-12"
                   />
@@ -62,31 +62,31 @@ const Navbar = () => {
                     className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
                     id="mega-menu-item-1366"
                   >
-                    <a className="mega-menu-link text-[#FB0202] font-semibold leading-tight py-2 text-lg hover:text-[#FB0202] transition" href="#training" tabIndex={0}>
+                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#training" tabIndex={0}>
                       Training
                     </a>
                   </li>
                   <li 
-                    className="text-zinc-600 hover:text-[#FB0202] font-bold font-['Oswald',sans-serif]" 
+                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
                     id="mega-menu-item-1735"
                   >
-                    <a className="mega-menu-link text-[#FB0202] font-semibold leading-tight py-2 text-lg hover:text-[#FB0202] transition" href="#services" tabIndex={0}>
+                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#services" tabIndex={0}>
                       Services
                     </a>
                   </li>
                   <li 
-                    className="text-zinc-600 hover:text-[#FB0202] font-bold font-['Oswald',sans-serif]" 
+                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
                     id="mega-menu-item-1449"
                   >
-                    <a className="mega-menu-link text-[#FB0202] font-semibold leading-tight py-2 text-lg hover:text-[#FB0202] transition" href="#projects" tabIndex={0}>
+                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#projects" tabIndex={0}>
                       Projects
                     </a>
                   </li>
                   <li 
-                    className="text-zinc-600 hover:text-[#FB0202] font-bold font-['Oswald',sans-serif]" 
+                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
                     id="mega-menu-item-1451"
                   >
-                    <a className="mega-menu-link text-[#FB0202] font-semibold leading-tight py-2 text-lg hover:text-[#FB0202] transition" href="#infrastructure" tabIndex={0}>
+                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#infrastructure" tabIndex={0}>
                       Infrastructure
                     </a>
                   </li>
@@ -118,10 +118,10 @@ const Navbar = () => {
                       type="button"
                       onMouseEnter={(e) => {
                         setShowSearch(true)
-                        e.currentTarget.style.backgroundColor = '#FB0202'
+                        e.currentTarget.style.backgroundColor = '#029896'
                       }}
                       className="search-icon-button p-2 text-white rounded transition"
-                      style={{ backgroundColor: '#FB0202' }}
+                      style={{ backgroundColor: '#029896' }}
                       aria-label="Search"
                     >
                       <Search size={23} />
@@ -130,8 +130,8 @@ const Navbar = () => {
                       href="https://www.akgecskills.in/app/registration/" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="min-h-10 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-[#FB0202] transition whitespace-nowrap"
-                      style={{ backgroundColor: '#FB0202', color: '#ffffff' }}
+                      className="min-h-10 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-[#566E95] transition whitespace-nowrap"
+                      style={{ backgroundColor: '#029896', color: '#ffffff' }}
                     >
                       Register
                     </a>
@@ -156,7 +156,7 @@ const Navbar = () => {
                         <span className="screen-reader-text sr-only">Search for:</span>
                         <input 
                           type="search" 
-                          className="search-field show-search border border-gray-300 rounded px-2 py-1 text-sm w-full focus:outline-none focus:ring-2 focus:ring-[#FB0202]" 
+                          className="search-field show-search border border-gray-300 rounded px-2 py-1 text-sm w-full focus:outline-none focus:ring-2 focus:ring-[#029896]" 
                           placeholder="Search …" 
                           value={searchQuery}
                           onChange={(e) => setSearchQuery(e.target.value)}
@@ -166,7 +166,7 @@ const Navbar = () => {
                       </label>
                       <button 
                         type="submit" 
-                        className="search-submit p-1 text-gray-600 hover:text-[#FB0202] flex-shrink-0"
+                        className="search-submit p-1 text-gray-600 hover:text-[#029896] flex-shrink-0"
                         aria-label="Search"
                       >
                         <span className="screen-reader-text sr-only">Search</span>
@@ -202,7 +202,7 @@ const Navbar = () => {
               <div className="w-4/12 pl-3 flex items-center justify-end">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
-                  className="p-2 text-gray-700 hover:text-[#FB0202]"
+                  className="p-2 text-gray-700 hover:text-[#029896]"
                   aria-label="Toggle menu"
                 >
                   {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -214,16 +214,16 @@ const Navbar = () => {
             {isOpen && (
               <div className="flex flex-col -mx-3 mt-2 border-t pt-2">
                 <div className="w-full px-3 pb-4 space-y-2">
-                  <a href="#training" className="block px-3 py-2 text-[#FB0202] hover:text-[#FB0202] font-bold font-['Oswald',sans-serif]">
+                  <a href="#training" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Training
                   </a>
-                  <a href="#services" className="block px-3 py-2 text-[#FB0202] hover:text-[#FB0202] font-bold font-['Oswald',sans-serif]">
+                  <a href="#services" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Services
                   </a>
-                  <a href="#projects" className="block px-3 py-2 text-[#FB0202] hover:text-[#FB0202] font-bold font-['Oswald',sans-serif]">
+                  <a href="#projects" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Projects
                   </a>
-                  <a href="#infrastructure" className="block px-3 py-2 text-[#FB0202] hover:text-[#FB0202] font-bold font-['Oswald',sans-serif]">
+                  <a href="#infrastructure" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Infrastructure
                   </a>
                 </div>
