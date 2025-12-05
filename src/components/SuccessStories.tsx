@@ -46,76 +46,76 @@ const SuccessStories = () => {
 
   const successStories = [
     {
-      name: "Amit Kumar",
-      position: "Line Associate, Honda Cars Ltd.",
-      email: "[email protected]",
-      image: "/Images/Amit-Kumar.jpeg"
+      name: "Vishal Joshi",
+      position: "Service Engineer, Yaskawa India",
+      email: "97vishaljoshi@gmail.com",
+      image: "/Images/Vishal.jpg"
     },
     {
-      name: "Vishal Kumar",
-      position: "Technical Trainee, Hero Motors",
-      email: "[email protected]",
-      image: "/Images/vishal.jpg"
-    },
-    {
-      name: "Rohit Kumar",
-      position: "Quality Engineer, Micromatic Grinding",
-      email: "[email protected]",
-      image: "/Images/rohit.jpg"
-    },
-    {
-      name: "Pradeep Sharma",
-      position: "Assistant Executive, Promada Pvt. Ltd.",
-      email: "[email protected]",
-      image: "/Images/Pradeep-Sharma.jpg"
-    },
-    {
-      name: "Ravi Chauhan",
-      position: "Cad Engineer, Dimension India Network",
-      email: "[email protected]",
-      image: "/Images/ravi.jpg"
-    },
-    {
-      name: "Manish Kumar",
-      position: "Trainee, Ordance Factory Muradnagar",
-      email: "[email protected]",
-      image: "/Images/manish.jpg"
-    },
-    {
-      name: "Richa Tiwari",
-      position: "GET, Emerson",
-      email: "[email protected]",
-      image: "/Images/richa.jpg"
-    },
-    {
-      name: "Yashasvi Pandey",
-      position: "Operation Executive, Econship Tech",
-      email: "[email protected]",
+      name: "Yash Bhargava",
+      position: "Executive Engineer, Torrent Gas",
+      email: "yashb.speed16@gmail.com",
       image: "/Images/yash.jpg"
     },
     {
-      name: "Aman Mittal",
-      position: "JE/Plant/EWS/BNGN, N.F.Railway",
-      email: "[email protected]",
-      image: "/Images/aman.jpg"
+      name: "Swatantra Singh",
+      position: "Sr. Adaptation, G+D Currency",
+      email: "sw8ntr@gmail.com",
+      image: "/Images/ss.jpg"
     },
     {
-      name: "Bhuvneshwar Pandey",
-      position: "Engineer, Loesche India Pvt. Ltd",
-      email: "[email protected]",
-      image: "/Images/bhuv.jpg"
+      name: "Shubham Jain",
+      position: "Application, Nmtronics India",
+      email: "sjshubham38@gmail.com",
+      image: "/Images/Shubham.jpg"
     },
     {
-      name: "Pawan Kumar",
-      position: "Design Engineer, Nipa International",
-      email: "[email protected]",
-      image: "/Images/pawan.jpg"
+      name: "Ankur Saini",
+      position: "Engineer, Power Mech Project Ltd",
+      email: "ankureee31@gmail.com",
+      image: "/Images/ankur.jpg"
     },
     {
-      name: "Sushant Kumar",
-      position: "Engineer, The HI-Tech Gears Limited",
-      email: "[email protected]",
-      image: "/Images/sushant.jpg"
+      name: "Prashant Singh Parihar",
+      position: "Electrical (TRD), Indian Railways",
+      email: "pacethakur786@gmail.com",
+      image: "/Images/Prashant.jpg"
+    },
+    {
+      name: "Shubham kumar Prajapat",
+      position: "Junior Engineer, Epiroc mining",
+      email: "shukumar14@gmail.com",
+      image: "/Images/Prajapat.jpg"
+    },
+    {
+      name: "Rohan Kanchan",
+      position: "Engineer, TATA Elxsi",
+      email: "rohankanchan2013@gmail.com",
+      image: "/Images/rohan.jpg"
+    },
+    {
+      name: "Anuj Kumar Gupta",
+      position: "Assistant Manager, Mahindra Ltd",
+      email: "anuj.gupta862@gmail.com",
+      image: "/Images/anuj.jpg"
+    },
+    {
+      name: "Apoorv Saxena",
+      position: "Application, B&R Industrial",
+      email: "apoorv.saxena02@gmail.com",
+      image: "/Images/apoorv.jpg"
+    },
+    {
+      name: "Vrinatri Velentina Boro",
+      position: "PG, Robotics and Automation",
+      email: "vrinatri.him@gmail.com",
+      image: "/Images/Vrinatri.jpg"
+    },
+    {
+      name: "RETIKA SINGH",
+      position: "JUNIOR RESEARCH, CSIR-CSIO",
+      email: "singhretika26@gmail.com",
+      image: "/Images/RETIKA.jpg"
     }
   ]
 
@@ -155,7 +155,7 @@ const SuccessStories = () => {
             <div className="kc-col-container w-full">
               {/* Title Section */}
               <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
                   Success Stories
                 </h3>
               </div>
@@ -168,7 +168,8 @@ const SuccessStories = () => {
               {/* Introductory Text */}
               <div className="kc-elm kc_text_block text-center mb-10 md:mb-12">
                 <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
-                  The Centre, in its endeavour to produce highly skilled manpower for industries, has created many success stories where trainees were immensely benefitted with the training programs to make their career and become successful in life.
+                  Most of our trainees land into their dream jobs and get placed soon after their tenure or graduation. Checkout how these<br className="hidden md:block" />
+                  benefitted students share their Success stories with us.
                 </p>
               </div>
 

@@ -12,7 +12,7 @@ const Certification = () => {
                 
                 {/* Title Section */}
                 <div className="kc-elm kc-title-wrap mb-4">
-                  <h3 className="kc_title mb-3 text-2xl md:text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+                  <h3 className="kc_title mb-3 text-2xl md:text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
                     Certification
                   </h3>
                 </div>
@@ -25,7 +25,7 @@ const Certification = () => {
                 {/* Paragraph */}
                 <div className="kc-elm kc_text_block mb-6">
                   <p className="text-gray-800 text-sm md:text-base leading-relaxed font-normal">
-                    The Centre provide Joint Certification with SIEMENS / SITRAIN to successful candidates on completion of their training, conducted in line with International Pedagogy, as per SIEMENS Global Standards.
+                    The participants, on successful completion of training, will receive joint certification by AKGEC & BOSCH Rexroth. To make the certifications and training standards at par with BOSCH Rexroth International Standards, the same teaching and training pedagogy is followed.
                   </p>
                 </div>
 
@@ -42,18 +42,16 @@ const Certification = () => {
                 
                 {/* Certificate Image */}
                 <div className="kc-elm kc_shortcode kc_single_image">
-                  <img 
-                    src="/Images/Certificate_1.jpg" 
-                    alt="SIEMENS Certification" 
-                    className="w-full h-auto"
-                    style={{
-                      transform: 'rotate(2deg)',
-                      transition: 'transform 0.3s ease'
-                    }}
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).style.display = 'none'
-                    }}
-                  />
+                  <a href="/Images/certified.jpg" title="" target="_self">
+                    <img 
+                      src="/Images/certified.jpg" 
+                      alt="BOSCH Rexroth Certification" 
+                      className="w-full h-auto"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).style.display = 'none'
+                      }}
+                    />
+                  </a>
                 </div>
 
                 {/* Spacing div */}

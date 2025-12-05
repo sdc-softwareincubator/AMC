@@ -54,7 +54,7 @@ const Training = () => {
             <div className="kc-col-container w-full">
               {/* Title Section */}
               <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
                   Training Programs
                 </h3>
               </div>
@@ -67,8 +67,8 @@ const Training = () => {
               {/* Introductory Text */}
               <div className="kc-elm kc_text_block text-center mb-10 md:mb-12 max-w-4xl mx-auto">
                 <p className="text-gray-800 text-sm md:text-base leading-tight font-normal">
-                  The Centre offers following training programs as per International didactic concepts to produce highly skilled technical workforce<br className="hidden md:block" />
-                  as per industry requirements in the field of Manufacturing
+                  The Center of Excellence in Automation Technologies offers training programs on various hardware, i.e. Industrial Hydraulics, Pneumatics, PLC, Mechatronics, Sensorics etc. These training programs are intended to train the B.Tech, M.Tech, Diploma Students<br className="hidden md:block" />
+                  of all disciplines at par with BOSCH Rexroth International standard.
                 </p>
               </div>
 
@@ -80,10 +80,10 @@ const Training = () => {
                     <div className="widget widget_wpb_widget kc-elm">
                       <ProgramCard
                         type="Training"
-                        title="Industrial Measurement"
+                        title="Programmable Logic Controller"
                         details="Basic | Advance"
-                        duration="One Week Program for Engineers"
-                        imageUrl="/Images/manuf.jpg"
+                        duration="One Week Program"
+                        imageUrl="/Images/1.jpg"
                       />
                     </div>
                   </div>
@@ -96,33 +96,33 @@ const Training = () => {
                       <div
                         className="relative overflow-hidden rounded-lg shadow-md h-full min-h-[370px] flex flex-col justify-end p-6"
                         style={{
-                          backgroundImage: 'linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%), url("/Images/22.jpg")',
+                          backgroundImage: 'linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%), url("/Images/2.jpg")',
                           backgroundSize: 'cover',
                           backgroundPosition: 'center',
                         }}
                       >
                         <div className="absolute top-4 left-4">
                           <img
-                            src="/Images/amc_logo.jpg"
-                            alt="AMC Logo"
+                            src="/Images/bosch_logo.jpg"
+                            alt="Bosch Rexroth Logo"
                             className="h-10 w-auto drop-shadow"
                             onError={(e) => {
                               (e.target as HTMLImageElement).style.display = 'none'
                             }}
                           />
                         </div>
-                        <div className="space-y-3 text-white relative z-10">
+                        <div className="space-y-3 text-gray-800 relative z-10">
                           <h3 className="text-yellow-400 text-xs font-bold uppercase tracking-wider font-['Oswald',sans-serif]">
                             Industrial Training Program
                           </h3>
-                          <h4 className="text-white text-xl font-semibold leading-tight font-['Oswald',sans-serif]">
-                            Computer Integrated Manufacturing
+                          <h4 className="text-gray-800 text-xl font-semibold leading-tight font-['Oswald',sans-serif]">
+                            Integrated Automation Technologies
                           </h4>
-                          <p className="text-gray-100 text-sm leading-relaxed">
-                            Milling | Turning | CAD & CAM
+                          <p className="text-gray-700 text-sm leading-relaxed">
+                            Hydraulics | Pneumatics | PLC | SCADA
                           </p>
-                          <p className="text-gray-100 text-sm font-medium">
-                            Six Weeks Summer Training Program for Engineering Students
+                          <p className="text-gray-700 text-sm font-medium">
+                            Six Weeks Summer Program for Engineering Students
                           </p>
                         </div>
                       </div>
@@ -136,10 +136,10 @@ const Training = () => {
                     <div className="widget widget_wpb_widget kc-elm">
                       <ProgramCard
                         type="Workshop"
-                        title="Advance Manufacturing"
-                        details="Milling | Turning"
+                        title="Automation Technologies"
+                        details="PLC | SCADA | DCS"
                         duration="One Day Program for Beginners"
-                        imageUrl="/Images/manuf_2.jpg"
+                        imageUrl="/Images/3.jpg"
                       />
                     </div>
                   </div>
@@ -147,32 +147,32 @@ const Training = () => {
               </div>
 
               {/* Program Cards - Bottom Row */}
-              <div className="kc-elm kc_row kc_row_inner flex flex-col md:flex-row -mx-3 md:-mx-4">
+              <div id="bluebgcontainer" className="kc-elm kc_row kc_row_inner flex flex-col md:flex-row -mx-3 md:-mx-4">
                 {/* Card 4 - Training */}
                 <div className="kc-elm kc_col-sm-3 kc_column_inner kc_col-sm-3 w-full md:w-1/4 px-3 md:px-4 mb-4 md:mb-0">
                   <div className="kc_wrapper kc-col-inner-container">
                     <div className="widget widget_wpb_widget kc-elm">
                       <ProgramCard
                         type="Training"
-                        title="Manufacturing Technologies"
-                        details="Basic | Advance"
-                        duration="Two Weeks Program for Engineers"
-                        imageUrl="/Images/27.jpg"
+                        title="Automation Technologies"
+                        details="Basic | Intermediate | Advance"
+                        duration="Two Weeks Program"
+                        imageUrl="/Images/auto_2.jpg"
                       />
                     </div>
                   </div>
                 </div>
 
-                {/* Card 5 - Vocational Training Program */}
+                {/* Card 5 - On-Site Training */}
                 <div className="kc-elm kc_col-sm-3 kc_column_inner kc_col-sm-3 w-full md:w-1/4 px-3 md:px-4 mb-4 md:mb-0">
                   <div className="kc_wrapper kc-col-inner-container">
                     <div className="widget widget_wpb_widget kc-elm">
                       <ProgramCard
-                        type="Vocational Training Program"
-                        title="Flexible Manufacturing System"
-                        details="Milling | Turning | CAD"
-                        duration="Program for Diploma/ ITI Students"
-                        imageUrl="/Images/29.jpg"
+                        type="On-Site Training"
+                        title="Automation Technologies"
+                        details="Hydraulics | Pneumatics | Drives & Control"
+                        duration="Three Days Program for Industry"
+                        imageUrl="/Images/5.jpg"
                       />
                     </div>
                   </div>
@@ -184,25 +184,25 @@ const Training = () => {
                     <div className="widget widget_wpb_widget kc-elm">
                       <ProgramCard
                         type="Industrial Internship"
-                        title="Manufacturing and Inspection"
-                        details="CNC Machine | CAD & CAM | Reverse Engg."
+                        title="Industrial Automation"
+                        details="Design | Programming | Application"
                         duration="Six Months Program for Students"
-                        imageUrl="/Images/23.jpg"
+                        imageUrl="/Images/auto-1.jpg"
                       />
                     </div>
                   </div>
                 </div>
 
-                {/* Card 7 - Finishing School Program */}
+                {/* Card 7 - Training */}
                 <div className="kc-elm kc_col-sm-3 kc_column_inner kc_col-sm-3 w-full md:w-1/4 px-3 md:px-4 mb-4 md:mb-0">
                   <div className="kc_wrapper kc-col-inner-container">
                     <div className="widget widget_wpb_widget kc-elm">
                       <ProgramCard
-                        type="Finishing School Program"
-                        title="Production Engineering"
-                        details="CAD | CAM | Measurements & Metrology"
-                        duration="One Month Program for Fresher's"
-                        imageUrl="/Images/manuf_6.jpg"
+                        type="Training"
+                        title="Industrial Sensorics"
+                        details="RFID | Vision | Ultrasonic | Photoelectric"
+                        duration="One Week Program for Engineers"
+                        imageUrl="/Images/7.jpg"
                       />
                     </div>
                   </div>

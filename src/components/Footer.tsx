@@ -17,32 +17,35 @@ const Footer = () => {
                                         <li className="menu-item footadd1 text-sm leading-5 pl-5 relative mb-[15px] text-white">
                                             <div className="flex items-start gap-2 mb-1">
                                                 <MapPin size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
-                                                <div>
-                                                    <span className="text-white">AKGEC - AMC, Advanced Manufacturing Centre</span><br />
-                                                    Ajay Kumar Garg Engineering College<br />
-                                                    27th Km Stone, Delhi-Hapur Bypass Road,<br />
-                                                    P.O. Adhyatmik Nagar, Ghaziabad - 201009
-                                                </div>
+                                    <div>
+                                        <span className="text-white">AKGEC – BOSCH Rexroth,<br />
+                                        Center of Excellence in Automation Technologies<br />
+                                        Ajay Kumar Garg Engineering College<br />
+                                        27th Km Stone,<br />
+                                        Delhi-Hapur Bypass Road,<br />
+                                        P.O Adhyatmik Nagar,<br />
+                                        Ghaziabad - 201009</span>
+                                    </div>
                                             </div>
                                         </li>
                                         <li className="menu-item footadd2 text-sm leading-5 pl-5 relative mb-[15px]">
                                             <a 
-                                                href="tel:+919910249199" 
+                                                href="tel:1800-3000-6292" 
                                                 className="flex items-start gap-2 text-[15px] text-white no-underline"
                                             >
                                                 <PhoneIcon size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
-                                                <span>+91 9910249199, +91 8743879879<br />
-                                                1800-3000-6292 (toll free)</span>
+                                                <span>+91 9910249199, +91-8743879879<br />
+                                                1800-3000-6292(Toll Free)</span>
                                             </a>
                                         </li>
                                         <li className="menu-item footadd3 text-sm leading-5 pl-5 relative mb-2.5">
-                                            <div className="flex items-start gap-2 text-[15px] text-white">
+                                            <a 
+                                                href="mailto:ceat@akgec.ac.in" 
+                                                className="flex items-start gap-2 text-[15px] text-white no-underline"
+                                            >
                                                 <Printer size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
-                                                <div>
-                                                    <span>Fax : +91-120-2762607, +91-120-2762606</span><br />
-                                                    <span>6582886</span>
-                                                </div>
-                                            </div>
+                                                <span>ceat@akgec.ac.in</span>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -61,7 +64,7 @@ const Footer = () => {
                                         </li>
                                         <li className="menu-item mb-2">
                                             <a 
-                                                href="#training" 
+                                                href="https://rexroth.akgecskills.in/training-programs/" 
                                                 className="block text-[15px] text-white no-underline"
                                             >
                                                 Training Programs
@@ -69,44 +72,10 @@ const Footer = () => {
                                         </li>
                                         <li className="menu-item mb-2">
                                             <a 
-                                                href="#services" 
+                                                href="https://rexroth.akgecskills.in/contact-us/" 
                                                 className="block text-[15px] text-white no-underline"
                                             >
-                                                Services
-                                            </a>
-                                        </li>
-                                        <li className="menu-item mb-2">
-                                            <a 
-                                                href="#projects" 
-                                                className="block text-[15px] text-white no-underline"
-                                            >
-                                                Projects
-                                            </a>
-                                        </li>
-                                        <li className="menu-item mb-2">
-                                            <a 
-                                                href="#certification" 
-                                                className="block text-[15px] text-white no-underline"
-                                            >
-                                                Certification
-                                            </a>
-                                        </li>
-                                        <li className="menu-item mb-2">
-                                            <a 
-                                                href="https://www.akgecskills.in/app/registration/" 
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="block text-[15px] text-white no-underline"
-                                            >
-                                                Registration
-                                            </a>
-                                        </li>
-                                        <li className="menu-item mb-2">
-                                            <a 
-                                                href="#gallery" 
-                                                className="block text-[15px] text-white no-underline"
-                                            >
-                                                Photo Gallery
+                                                Contact Us
                                             </a>
                                         </li>
                                     </ul>
@@ -123,7 +92,7 @@ const Footer = () => {
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#1877f2] rounded"
                                                     title="Facebook"
                                                 >
-                                                    <img src="/Images/facebook.jpeg" alt="Facebook" className="w-6 h-6" />
+                                                    <i className="fab fa-facebook" style={{ fontSize: '24px', color: '#ffffff' }}></i>
                                                 </a>
                                             </li>
                                             <li>
@@ -134,7 +103,7 @@ const Footer = () => {
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#1da1f2] rounded"
                                                     title="Twitter"
                                                 >
-                                                    <img src="/Images/twitter.jpeg" alt="Twitter" className="w-6 h-6" />
+                                                    <i className="fa fa-twitter" style={{ fontSize: '24px', color: '#ffffff' }}></i>
                                                 </a>
                                             </li>
                                             <li>
@@ -145,7 +114,7 @@ const Footer = () => {
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#0077b5] rounded"
                                                     title="LinkedIn"
                                                 >
-                                                    <img src="/Images/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6" />
+                                                    <i className="fa fa-linkedin" style={{ fontSize: '24px', color: '#ffffff' }}></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -165,31 +134,34 @@ const Footer = () => {
                                 <div className="flex items-start gap-2 mb-1">
                                     <MapPin size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
                                     <div>
-                                        <span className="text-white">AKGEC - AMC, Advanced Manufacturing Centre</span><br />
+                                        <span className="text-white">AKGEC – BOSCH Rexroth,<br />
+                                        Center of Excellence in Automation Technologies<br />
                                         Ajay Kumar Garg Engineering College<br />
-                                        27th Km Stone, Delhi-Hapur Bypass Road,<br />
-                                        P.O. Adhyatmik Nagar, Ghaziabad - 201009
+                                        27th Km Stone,<br />
+                                        Delhi-Hapur Bypass Road,<br />
+                                        P.O Adhyatmik Nagar,<br />
+                                        Ghaziabad - 201009</span>
                                     </div>
                                 </div>
                             </li>
                             <li className="menu-item footadd2 text-sm leading-5 pl-5 relative mb-[15px]">
                                 <a 
-                                    href="tel:+919910249199" 
+                                    href="tel:1800-3000-6292" 
                                     className="flex items-start gap-2 text-[15px] text-white no-underline"
                                 >
                                     <PhoneIcon size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
-                                    <span>+91 9910249199, +91 8743879879<br />
-                                    1800-3000-6292 (toll free)</span>
+                                    <span>+91 9910249199, +91-8743879879<br />
+                                    1800-3000-6292(Toll Free)</span>
                                 </a>
                             </li>
                             <li className="menu-item footadd3 text-sm leading-5 pl-5 relative mb-2.5">
-                                <div className="flex items-start gap-2 text-[15px] text-white">
+                                <a 
+                                    href="mailto:ceat@akgec.ac.in" 
+                                    className="flex items-start gap-2 text-[15px] text-white no-underline"
+                                >
                                     <Printer size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
-                                    <div>
-                                        <span>Fax : +91-120-2762607, +91-120-2762606</span><br />
-                                        <span>6582886</span>
-                                    </div>
-                                </div>
+                                    <span>ceat@akgec.ac.in</span>
+                                </a>
                             </li>
                         </ul>
                     </div>

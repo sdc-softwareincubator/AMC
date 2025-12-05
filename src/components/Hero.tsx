@@ -60,8 +60,8 @@ const Hero = () => {
                 <button
                   type="button"
                   onClick={() => setShowSearch(true)}
-                  className="search-icon-button p-2 text-white rounded hover:bg-[#566E95] transition flex-shrink-0"
-                  style={{ backgroundColor: '#029896' }}
+                  className="search-icon-button p-2 text-white rounded hover:bg-[#FB0202] transition flex-shrink-0"
+                  style={{ backgroundColor: '#FB0202' }}
                   aria-label="Search"
                 >
                   <Search size={18} />
@@ -82,7 +82,7 @@ const Hero = () => {
                       <span className="screen-reader-text sr-only">Search for:</span>
                       <input 
                         type="search" 
-                        className="search-field show-search border border-gray-300 rounded px-2 py-1 text-xs w-full focus:outline-none focus:ring-2 focus:ring-[#029896]" 
+                        className="search-field show-search border border-gray-300 rounded px-2 py-1 text-xs w-full focus:outline-none focus:ring-2 focus:ring-[#FB0202]" 
                         placeholder="Search …" 
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
@@ -92,7 +92,7 @@ const Hero = () => {
                     </label>
                     <button 
                       type="submit" 
-                      className="search-submit p-1 text-gray-600 hover:text-[#029896] flex-shrink-0"
+                      className="search-submit p-1 text-gray-600 hover:text-[#FB0202] flex-shrink-0"
                       aria-label="Search"
                     >
                       <Search size={14} className="text-gray-600" />
@@ -100,7 +100,7 @@ const Hero = () => {
                     <button
                       type="button"
                       onClick={() => setShowSearch(false)}
-                      className="p-1 text-gray-600 hover:text-[#029896] flex-shrink-0"
+                      className="p-1 text-gray-600 hover:text-[#FB0202] flex-shrink-0"
                       aria-label="Close search"
                     >
                       <X size={14} />
@@ -115,8 +115,8 @@ const Hero = () => {
                   href="https://www.akgecskills.in/app/registration/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-white px-3 py-2 rounded text-xs font-semibold hover:bg-[#566E95] transition whitespace-nowrap flex-shrink-0"
-                  style={{ backgroundColor: '#029896' }}
+                  className="text-white px-3 py-2 rounded text-xs font-semibold hover:bg-[#FB0202] transition whitespace-nowrap flex-shrink-0"
+                  style={{ backgroundColor: '#FB0202' }}
                 >
                   Register
                 </a>
@@ -148,7 +148,7 @@ const Hero = () => {
                                   <div 
                                     className="n2-ss-slide-background-wrap n2-ow absolute left-0 top-0 w-full h-full bg-black bg-no-repeat"
                                     style={{
-                                      backgroundImage: 'url("/Images/Front-pic.jpg")',
+                                      backgroundImage: 'url("/Images/Drive-control-Academy.jpg")',
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center center'
                                     }}
@@ -210,7 +210,7 @@ const Hero = () => {
                                                         textAlign: 'right'
                                                       }}
                                                     >
-                                                      <b>Precision, Full - Fledged Intelligent Manufacturing Technology</b>
+                                                      <b>CENTER OF EXCELLENCE IN AUTOMATION TECHNOLOGIES</b>
                                                     </p>
                                                   </div>
                                                 </div>

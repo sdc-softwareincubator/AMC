@@ -37,9 +37,9 @@ const ProjectCard = ({ image, title, description }: ProjectCardProps) => {
           </div>
           {/* Icon at bottom */}
           <div className="mt-4 pt-4 border-t border-gray-300">
-            <a href="#" title="" target="_self">
-                     <img
-                       src="/Images/infra-1.png"
+            <a href="#" title="" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/Images/infra-1.png"
                 alt="Infrastructure" 
                 className="h-8 w-auto"
                 onError={(e) => {
@@ -60,19 +60,39 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Friction stir welding of 6063-T6 aluminum alloy",
-      description: "The joining of aluminium should be done in such a way so as to minimize the stresses produced during joining. The joining of aluminum can be done by using welding. Welding used can be of many types' viz. Friction welding, Arc welding, spot welding",
-      image: "/Images/Friction_1.jpg"
+      title: "AUTOMATED INVENTORY MANAGEMENT SYSTEM",
+      description: "The basic idea is to implement concepts of INDUSTRY 4.0 in manufacturing and making inventory management smarter and intelligent.",
+      image: "/Images/INVENTORY.jpg"
     },
     {
-      title: "Friction stir processing",
-      description: "With the advancement in technology and limited energy resources, now Manufacturing Industries are focusing more towards the material having better strength as compare to its weight and to reduce the material wastage industries are now demanding those processes",
-      image: "/Images/Friction_2.jpg"
+      title: "SMART INSPECTION BASED SORTING SYSTEM (SIBSS)",
+      description: "SIBSS has a vision sensor and AS-I system, and data is shared on a web server for the implementation of Industrial IoT.",
+      image: "/Images/SMART.jpg"
     },
     {
-      title: "Model Based Approach for Enhancement of Machining Accuracy in Robotic Milling",
-      description: "Implantation of various virtual and real time technical parameters so that there should not be any chance of error or accident so that the function can be performed easily and smoothly within a given time frame because the process need to be economic and feasible",
-      image: "/Images/amc.jpg"
+      title: "IIoT BASED INTEGRATED PACKAGING SYSTEM",
+      description: "To implement the automated industrial packaging of boxes that can do faster and safer packaging of products.",
+      image: "/Images/IIoT.jpg"
+    },
+    {
+      title: "PROSTHETIC ARM USING EMG SENSOR",
+      description: "A Prosthetic Arm is an artificial device that is used as an aid to people to perform various actions of the forearm.",
+      image: "/Images/PROSTHETIC.jpg"
+    },
+    {
+      title: "AUTOMATIC DISPENSING SYSTEM USING IoT AND ELECTRO-PNEUMATICS",
+      description: "An effort to propel the industry further towards better productivity and efficient resource management.",
+      image: "/Images/DISPENSING.jpg"
+    },
+    {
+      title: "IoT COLOR BASED PRODUCT SORTING MACHINE",
+      description: "Color-Based Object Sorting System is used to detects the image of an object and sort it based on color.",
+      image: "/Images/COLOR.jpg"
+    },
+    {
+      title: "SELF GUIDED RETRIEVAL SYSTEM",
+      description: "It is an automatic guided vehicle, which is a mobile robot that uses vision, magnets, or lasers for navigation.",
+      image: "/Images/RETRIEVAL.jpg"
     }
   ]
 
@@ -102,7 +122,7 @@ const Projects = () => {
             <div className="kc-col-container w-full">
               {/* Title Section */}
               <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
                   Projects
                 </h3>
               </div>
@@ -115,7 +135,9 @@ const Projects = () => {
               {/* Introductory Text */}
               <div className="kc-elm kc_text_block text-center mb-10 md:mb-12">
                 <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
-                  The Centre undertake Industry projects in the field of CNC turning, milling and grinding technology with an aim of providing quality engineering solutions for the challenges faced by the Industries in the field of Manufacturing
+                  The center enables trainees from different streams of engineering to design solutions to industrial automation requirements and carry<br className="hidden md:block" />
+                  out research/projects by integrating different fields of engineering like mechanical, electrical, electronics,<br className="hidden md:block" />
+                  instrumentation and information technologies.
                 </p>
               </div>
 

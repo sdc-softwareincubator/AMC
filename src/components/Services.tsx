@@ -1,24 +1,24 @@
 const Services = () => {
   const services = [
     {
-      title: "Dimensional Testing and Calibration",
-      description: "ASF offers Dimensional Testing & Calibration Services from NABL accredited facility to ensure reliable, precise, traceable measurement results from the measuring instruments.",
+      title: "Factory Automation System",
+      description: "ASF with its experience in providing automation solutions tailored to the needs of industry, develop various types of test, measurement & control.",
       bgColor: '#19396C', // Dark blue
       headingColor: 'text-yellow-400', // Yellow
       textColor: 'text-white', // White
       buttonStyle: 'border-white text-white hover:bg-white hover:text-[#19396C]'
     },
     {
-      title: "Coordinate Measurement (CMM)",
-      description: "Zeiss make, Coordinate Measuring Machine (CMM) at ASF is installed to precisely measure countless critical components with complex shape and complicated drawing indications.",
+      title: "Hydraulic & Pneumatic Solutions",
+      description: "Utilising our knowledge and capabilities in low cost automation solutions, we provide advance and retrofit solutions to a variety of industrial installations.",
       bgColor: '#E5E5E5', // Light grey
       headingColor: 'text-[#19396C]', // Dark blue
       textColor: 'text-gray-700', // Dark grey
       buttonStyle: 'border-[#19396C] text-[#19396C] hover:bg-[#19396C] hover:text-white'
     },
     {
-      title: "3D Scanning",
-      description: "Zeiss make high precision 3 D scanner is available to collect and measure millions of coordinates / data points on the surface of an object with high degree of accuracy to fulfill the need.",
+      title: "Industrial Internet of Things",
+      description: "With vast experience in IOT, we design and implement end to end IIoT Solutions to help businesses eliminate waste, reduce manufacturing cycle time.",
       bgColor: '#19396C', // Dark blue
       headingColor: 'text-yellow-400', // Yellow
       textColor: 'text-white', // White
@@ -34,7 +34,7 @@ const Services = () => {
             <div className="kc-col-container w-full">
               {/* Title Section */}
               <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#FB0202] font-['Oswald',sans-serif]">
                   Services
                 </h3>
               </div>
@@ -47,7 +47,8 @@ const Services = () => {
               {/* Introductory Text */}
               <div className="kc-elm kc_text_block text-center mb-10 md:mb-12">
                 <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
-                  The Centre is committed to provide solutions for production of complex parts and assemblies to the industries using high end engineering technologies for improving the quality, productivity and competitiveness in the field of Machining, Dimension Measurement and Inspection technology.
+                  Center of Excellence in Automation Technologies offers consultation and services to develop and implement Low Cost Automated Solutions for upgrading & retrofitting manufacturing processes using tools like PLC/SCADA/DCS and deploying solution through<br className="hidden md:block" />
+                  Hydraulic & Pneumatic Systems, IIOT solutions using Vision, RFID, ASI & Laser technologies.
                 </p>
               </div>
 
@@ -59,18 +60,29 @@ const Services = () => {
                     className="p-6 md:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow min-h-[300px] flex flex-col"
                     style={{ backgroundColor: service.bgColor }}
                   >
+                    <figure className="content-image mb-4">
+                      <img 
+                        src={index === 0 ? '/Images/factory.png' : index === 1 ? '/Images/Hydraulic.png' : '/Images/industrial.png'} 
+                        alt={service.title}
+                        className="w-16 h-16 object-contain"
+                      />
+                    </figure>
                     <h4 className={`text-xl md:text-2xl font-bold mb-4 font-['Oswald',sans-serif] ${service.headingColor}`}>
                       {service.title}
                     </h4>
                     <p className={`text-sm md:text-base mb-6 leading-relaxed flex-grow ${service.textColor}`}>
                       {service.description}
                     </p>
-                    <a 
-                      href="#"
-                      className={`inline-block px-6 py-2 text-sm font-semibold rounded border-2 transition self-start ${service.buttonStyle}`}
-                    >
-                      Know More
-                    </a>
+                    <div className="content-button">
+                      <a 
+                        href="https://rexroth.akgecskills.in/industrial-services/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`inline-block px-6 py-2 text-sm font-semibold rounded border-2 transition self-start ${service.buttonStyle}`}
+                      >
+                        Know More
+                      </a>
+                    </div>
                   </div>
                 ))}
               </div>
