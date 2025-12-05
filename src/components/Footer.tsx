@@ -270,7 +270,7 @@ const Footer = () => {
                         <ul className="flex list-none gap-2">
                             <li>
                                 <a 
-                                    href="https://facebook.com/" 
+                                    href="https://www.facebook.com/advance.manufacturing.5" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="w-6 h-6 py-1.5 m-0 inline-flex items-center justify-center"
