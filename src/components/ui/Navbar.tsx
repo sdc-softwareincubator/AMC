@@ -116,8 +116,11 @@ const Navbar = () => {
                   <>
                     <button
                       type="button"
-                      onMouseEnter={() => setShowSearch(true)}
-                      className="search-icon-button p-2 text-white rounded hover:bg-[#566E95] transition"
+                      onMouseEnter={(e) => {
+                        setShowSearch(true)
+                        e.currentTarget.style.backgroundColor = '#029896'
+                      }}
+                      className="search-icon-button p-2 text-white rounded transition"
                       style={{ backgroundColor: '#029896' }}
                       aria-label="Search"
                     >
@@ -128,7 +131,7 @@ const Navbar = () => {
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="min-h-10 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-[#566E95] transition whitespace-nowrap"
-                      style={{ backgroundColor: '#029896' }}
+                      style={{ backgroundColor: '#029896', color: '#ffffff' }}
                     >
                       Register
                     </a>

@@ -196,7 +196,7 @@ const Footer = () => {
 
                     {/* Column 2 - Menu Left (Decreased width) */}
                     <div className="w-full md:w-2/12 px-3 md:px-4">
-                        <ul id="menu-footer-menu-left" className="menu list-none">
+                        <ul id="menu-footer-menu-left" className="menu list-none flex flex-col items-end md:items-start">
                             <li className="menu-item">
                                 <a 
                                     href="#about" 
@@ -234,7 +234,7 @@ const Footer = () => {
 
                     {/* Column 3 - Menu Right (Decreased width) */}
                     <div className="w-full md:w-2/12 px-3 md:px-4 md:border-r md:border-gray-600 md:pr-8">
-                        <ul id="menu-footer-menu-right" className="menu list-none">
+                        <ul id="menu-footer-menu-right" className="menu list-none flex flex-col items-end md:items-start">
                             <li className="menu-item">
                                 <a 
                                     href="#certification" 
