@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { User, Calendar, Folder } from 'lucide-react';
+import { User, Folder } from 'lucide-react';
 
 // Mock data based on the provided HTML
 const MOCK_RESULTS = [
