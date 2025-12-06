@@ -147,20 +147,20 @@ const SearchResults = () => {
     return (
         <div className="bg-white min-h-screen font-sans">
             {/* Search Header Section */}
-            <div className="bg-[#f7f7f7] py-8 border-b border-gray-200">
-                <div className="container mx-auto px-4">
+            <div className="bg-[#f7f7f7] py-4 md:py-8 border-b border-gray-200">
+                <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-7xl mx-auto">
                         <form className="relative max-w-full">
                             <label className="sr-only">Search for:</label>
                             <input
                                 type="search"
-                                className="w-full bg-white border border-gray-300 px-4 py-2 text-gray-700 focus:outline-none focus:border-[#029896]"
+                                className="w-full bg-white border border-gray-300 px-3 md:px-4 py-2 text-sm md:text-base text-gray-700 focus:outline-none focus:border-[#029896]"
                                 placeholder="Search …"
                                 defaultValue={query}
                             />
-                            <button type="submit" className="absolute right-0 top-0 h-full px-4 text-gray-500 hover:text-[#029896]">
+                            <button type="submit" className="absolute right-0 top-0 h-full px-3 md:px-4 text-gray-500 hover:text-[#029896]">
                                 <span className="sr-only">Search</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                 </svg>
                             </button>
@@ -169,23 +169,23 @@ const SearchResults = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 py-12">
-                <div className="flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
+            <div className="container mx-auto px-4 md:px-6 py-6 md:py-12">
+                <div className="flex flex-col md:flex-row gap-6 md:gap-8 max-w-7xl mx-auto">
 
                     {/* Main Content */}
                     <div className="w-full md:w-3/4">
-                        <header className="mb-8">
-                            <h1 className="text-3xl font-normal text-gray-800">
+                        <header className="mb-6 md:mb-8">
+                            <h1 className="text-xl md:text-2xl lg:text-3xl font-normal text-gray-800">
                                 Search Results for: <span className="font-bold">{query || category || date || 'All'}</span>
                             </h1>
                         </header>
 
-                        <div className="space-y-12">
+                        <div className="space-y-8 md:space-y-12">
                             {filteredResults.length > 0 ? (
                                 filteredResults.map((result) => (
-                                    <article key={result.id} className="flex flex-col gap-4">
+                                    <article key={result.id} className="flex flex-col gap-3 md:gap-4">
                                         <header>
-                                            <h2 className="text-2xl font-semibold text-[#029896] hover:text-[#566E95] hover:underline">
+                                            <h2 className="text-xl md:text-2xl font-semibold text-[#029896] hover:text-[#566E95] hover:underline">
                                                 <Link to={result.link}>{result.title}</Link>
                                             </h2>
                                         </header>

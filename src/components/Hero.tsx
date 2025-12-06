@@ -1,15 +1,21 @@
 import { useState, useRef, useEffect } from 'react'
 import { Search, X } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 import type { FormEvent } from 'react'
 
 const Hero = () => {
   const [showSearch, setShowSearch] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const searchRef = useRef<HTMLDivElement>(null)
+  const navigate = useNavigate()
 
   const handleSearch = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    console.log('Searching for:', searchQuery)
+    if (searchQuery.trim()) {
+      navigate(`/search?q=${encodeURIComponent(searchQuery.trim())}`)
+    } else {
+      navigate('/search')
+    }
     setShowSearch(false)
   }
 
@@ -33,7 +39,7 @@ const Hero = () => {
   return (
     <>
       {/* Second Row: Government Logos and Action Buttons - Mobile/Tablet Only */}
-      <div className="lg:hidden bg-white mt-6 border-b border-gray-200">
+      <div className="lg:hidden bg-white border-b border-gray-200">
         <div className="w-full px-5 py-2">
           <div className="flex flex-wrap -mx-3 items-center">
             {/* Government Logos Section - Left Side */}
