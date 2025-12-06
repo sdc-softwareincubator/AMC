@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { useNavigate, Link, useLocation } from 'react-router-dom'
 import { Search, Menu, X } from 'lucide-react'
 import type { FormEvent } from 'react'
 
@@ -8,9 +9,12 @@ const Navbar = () => {
   const [showSearch, setShowSearch] = useState(false)
   const searchRef = useRef<HTMLDivElement>(null)
 
+  const navigate = useNavigate()
+  const location = useLocation()
+
   const handleSearch = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    console.log('Searching for:', searchQuery)
+    navigate(`/search?q=${encodeURIComponent(searchQuery)}`)
     setShowSearch(false)
   }
 
@@ -41,54 +45,63 @@ const Navbar = () => {
             {/* Logo Section */}
             <div className="w-2/12 px-4">
               <div className="logo_wrap text-left">
-                <a href="/">
-                  <img 
-                        src="/Images/logo.png"
-                    alt="AMC - AKGEC Skills" 
+                <Link to="/">
+                  <img
+                    src="/Images/logo.png"
+                    alt="AMC - AKGEC Skills"
                     className="mt-1 w-full h-auto max-h-12"
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
             {/* Navigation Menu */}
             <div className="w-6/12 px-4">
               <div id="mega-menu-wrap-primary" className="mega-menu-wrap">
-                <ul 
-                  id="mega-menu-primary" 
+                <ul
+                  id="mega-menu-primary"
                   className="mega-menu max-mega-menu mega-menu-horizontal flex items-center justify-end space-x-4 md:space-x-5 h-full"
                 >
-                  <li 
-                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
+                  {location.pathname !== '/' && (
+                    <li
+                      className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]"
+                    >
+                      <Link className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" to="/">
+                        Home
+                      </Link>
+                    </li>
+                  )}
+                  <li
+                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]"
                     id="mega-menu-item-1366"
                   >
-                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#training" tabIndex={0}>
+                    <Link className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" to="/#training">
                       Training
-                    </a>
+                    </Link>
                   </li>
-                  <li 
-                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
+                  <li
+                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]"
                     id="mega-menu-item-1735"
                   >
-                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#services" tabIndex={0}>
+                    <Link className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" to="/#services">
                       Services
-                    </a>
+                    </Link>
                   </li>
-                  <li 
-                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
+                  <li
+                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]"
                     id="mega-menu-item-1449"
                   >
-                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#projects" tabIndex={0}>
+                    <Link className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" to="/#projects">
                       Projects
-                    </a>
+                    </Link>
                   </li>
-                  <li 
-                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]" 
+                  <li
+                    className="text-zinc-600 hover:text-[#566E95] font-bold font-['Oswald',sans-serif]"
                     id="mega-menu-item-1451"
                   >
-                    <a className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" href="#infrastructure" tabIndex={0}>
+                    <Link className="mega-menu-link text-[#029896] font-semibold leading-tight py-2 text-lg hover:text-[#566E95] transition" to="/#infrastructure">
                       Infrastructure
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -97,17 +110,17 @@ const Navbar = () => {
             {/* NSDC Logo */}
             <div className="w-2/12 px-4">
               <div className="header_right_wrap text-right">
-                <img 
-                       src="/Images/nsdc-logo.jpg"
-                  alt="nsdc" 
+                <img
+                  src="/Images/nsdc-logo.jpg"
+                  alt="nsdc"
                   className="w-full h-auto"
                 />
               </div>
             </div>
 
             {/* Search and Register */}
-            <div 
-              className="w-2/12 px-4 relative" 
+            <div
+              className="w-2/12 px-4 relative"
               ref={searchRef}
             >
               <div className="flex items-center justify-start gap-2">
@@ -126,9 +139,9 @@ const Navbar = () => {
                     >
                       <Search size={23} />
                     </button>
-                    <a 
-                      href="https://www.akgecskills.in/app/registration/" 
-                      target="_blank" 
+                    <a
+                      href="https://www.akgecskills.in/app/registration/"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="min-h-10 text-white px-4 py-2 rounded text-sm font-semibold hover:bg-[#566E95] transition whitespace-nowrap"
                       style={{ backgroundColor: '#029896', color: '#ffffff' }}
@@ -140,32 +153,32 @@ const Navbar = () => {
 
                 {/* Search Form - shown when search is open */}
                 {showSearch && (
-                  <div 
+                  <div
                     className="w-full"
                     onMouseEnter={() => setShowSearch(true)}
                     onMouseLeave={() => setShowSearch(false)}
                   >
-                    <form 
-                      role="search" 
-                      method="get" 
-                      className="search-form flex items-center gap-1 w-full" 
+                    <form
+                      role="search"
+                      method="get"
+                      className="search-form flex items-center gap-1 w-full"
                       action="/"
                       onSubmit={handleSearch}
                     >
                       <label className="flex-1">
                         <span className="screen-reader-text sr-only">Search for:</span>
-                        <input 
-                          type="search" 
-                          className="search-field show-search border border-gray-300 rounded px-2 py-1 text-sm w-full focus:outline-none focus:ring-2 focus:ring-[#029896]" 
-                          placeholder="Search …" 
+                        <input
+                          type="search"
+                          className="search-field show-search border border-gray-300 rounded px-2 py-1 text-sm w-full focus:outline-none focus:ring-2 focus:ring-[#029896]"
+                          placeholder="Search …"
                           value={searchQuery}
                           onChange={(e) => setSearchQuery(e.target.value)}
                           name="s"
                           autoFocus
                         />
                       </label>
-                      <button 
-                        type="submit" 
+                      <button
+                        type="submit"
                         className="search-submit p-1 text-gray-600 hover:text-[#029896] flex-shrink-0"
                         aria-label="Search"
                       >
@@ -189,15 +202,15 @@ const Navbar = () => {
               <div className="w-8/12 pr-3">
                 <div className="logo_wrap text-left">
                   <a href="/">
-                    <img 
-                           src="/Images/logo.png"
-                      alt="AMC - AKGEC Skills" 
+                    <img
+                      src="/Images/logo.png"
+                      alt="AMC - AKGEC Skills"
                       className="mt-1 w-full h-auto max-h-12"
                     />
                   </a>
                 </div>
               </div>
-              
+
               {/* Hamburger Menu Button - Top Right */}
               <div className="w-4/12 pl-3 flex items-center justify-end">
                 <button
@@ -209,23 +222,28 @@ const Navbar = () => {
                 </button>
               </div>
             </div>
-            
+
             {/* Mobile Menu Dropdown */}
             {isOpen && (
               <div className="flex flex-col -mx-3 mt-2 border-t pt-2">
                 <div className="w-full px-3 pb-4 space-y-2">
-                  <a href="#training" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
+                  {location.pathname !== '/' && (
+                    <Link to="/" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
+                      Home
+                    </Link>
+                  )}
+                  <Link to="/#training" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Training
-                  </a>
-                  <a href="#services" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
+                  </Link>
+                  <Link to="/#services" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Services
-                  </a>
-                  <a href="#projects" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
+                  </Link>
+                  <Link to="/#projects" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Projects
-                  </a>
-                  <a href="#infrastructure" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
+                  </Link>
+                  <Link to="/#infrastructure" className="block px-3 py-2 text-[#029896] hover:text-[#566E95] font-bold font-['Oswald',sans-serif]">
                     Infrastructure
-                  </a>
+                  </Link>
                 </div>
               </div>
             )}
