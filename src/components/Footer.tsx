@@ -26,13 +26,13 @@ const Footer = () => {
                                             </div>
                                         </li>
                                         <li className="menu-item footadd2 text-sm leading-5 pl-5 relative mb-[15px]">
-                                            <a 
-                                                href="tel:+919910249199" 
+                                            <a
+                                                href="tel:+919910249199"
                                                 className="flex items-start gap-2 text-[15px] text-white no-underline"
                                             >
                                                 <PhoneIcon size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
                                                 <span>+91 9910249199, +91 8743879879<br />
-                                                1800-3000-6292 (toll free)</span>
+                                                    1800-3000-6292 (toll free)</span>
                                             </a>
                                         </li>
                                         <li className="menu-item footadd3 text-sm leading-5 pl-5 relative mb-2.5">
@@ -52,48 +52,48 @@ const Footer = () => {
                                     {/* Navigation Links */}
                                     <ul id="menu-footer-menu" className="menu list-none mb-4">
                                         <li className="menu-item mb-2">
-                                            <a 
-                                                href="#about" 
+                                            <a
+                                                href="#about"
                                                 className="block text-[15px] text-white no-underline"
                                             >
                                                 About Us
                                             </a>
                                         </li>
                                         <li className="menu-item mb-2">
-                                            <a 
-                                                href="#training" 
+                                            <a
+                                                href="#training"
                                                 className="block text-[15px] text-white no-underline"
                                             >
                                                 Training Programs
                                             </a>
                                         </li>
                                         <li className="menu-item mb-2">
-                                            <a 
-                                                href="#services" 
+                                            <a
+                                                href="#services"
                                                 className="block text-[15px] text-white no-underline"
                                             >
                                                 Services
                                             </a>
                                         </li>
                                         <li className="menu-item mb-2">
-                                            <a 
-                                                href="#projects" 
+                                            <a
+                                                href="#projects"
                                                 className="block text-[15px] text-white no-underline"
                                             >
                                                 Projects
                                             </a>
                                         </li>
                                         <li className="menu-item mb-2">
-                                            <a 
-                                                href="#certification" 
+                                            <a
+                                                href="#certification"
                                                 className="block text-[15px] text-white no-underline"
                                             >
                                                 Certification
                                             </a>
                                         </li>
                                         <li className="menu-item mb-2">
-                                            <a 
-                                                href="https://www.akgecskills.in/app/registration/" 
+                                            <a
+                                                href="https://www.akgecskills.in/app/registration/"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="block text-[15px] text-white no-underline"
@@ -102,8 +102,8 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li className="menu-item mb-2">
-                                            <a 
-                                                href="#gallery" 
+                                            <a
+                                                href="#gallery"
                                                 className="block text-[15px] text-white no-underline"
                                             >
                                                 Photo Gallery
@@ -116,36 +116,36 @@ const Footer = () => {
                                         <h4 className="font-['Oswald',sans-serif] text-xl mb-3 mt-0 font-medium leading-tight text-white">Follow Us</h4>
                                         <ul className="flex list-none gap-2">
                                             <li>
-                                                <a 
-                                                    href="https://facebook.com/" 
-                                                    target="_blank" 
-                                                    rel="noopener noreferrer" 
+                                                <a
+                                                    href="https://facebook.com/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#1877f2] rounded"
                                                     title="Facebook"
                                                 >
-                                                    <img src="/Images/facebook.jpeg" alt="Facebook" className="w-6 h-6" />
+                                                    <img src="/Images/facebook.jpeg" alt="Facebook" className="w-6 h-6 rounded" />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a 
-                                                    href="https://twitter.com/" 
-                                                    target="_blank" 
-                                                    rel="noopener noreferrer" 
+                                                <a
+                                                    href="https://twitter.com/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#1da1f2] rounded"
                                                     title="Twitter"
                                                 >
-                                                    <img src="/Images/twitter.jpeg" alt="Twitter" className="w-6 h-6" />
+                                                    <img src="/Images/twitter.jpeg" alt="Twitter" className="w-6 h-6 rounded" />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a 
-                                                    href="https://linkedin.com/" 
-                                                    target="_blank" 
-                                                    rel="noopener noreferrer" 
+                                                <a
+                                                    href="https://linkedin.com/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                     className="w-9 h-9 p-1.5 m-0 inline-flex items-center justify-center bg-[#0077b5] rounded"
                                                     title="LinkedIn"
                                                 >
-                                                    <img src="/Images/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6" />
+                                                    <img src="/Images/linkedin.jpeg" alt="LinkedIn" className="w-6 h-6 rounded" />
                                                 </a>
                                             </li>
                                         </ul>
@@ -173,13 +173,13 @@ const Footer = () => {
                                 </div>
                             </li>
                             <li className="menu-item footadd2 text-sm leading-5 pl-5 relative mb-[15px]">
-                                <a 
-                                    href="tel:+919910249199" 
+                                <a
+                                    href="tel:+919910249199"
                                     className="flex items-start gap-2 text-[15px] text-white no-underline"
                                 >
                                     <PhoneIcon size={16} className="flex-shrink-0 mt-0.5 text-yellow-400" />
                                     <span>+91 9910249199, +91 8743879879<br />
-                                    1800-3000-6292 (toll free)</span>
+                                        1800-3000-6292 (toll free)</span>
                                 </a>
                             </li>
                             <li className="menu-item footadd3 text-sm leading-5 pl-5 relative mb-2.5">
@@ -198,32 +198,32 @@ const Footer = () => {
                     <div className="w-full md:w-2/12 px-3 md:px-4">
                         <ul id="menu-footer-menu-left" className="menu list-none flex flex-col items-end md:items-start">
                             <li className="menu-item">
-                                <a 
-                                    href="#about" 
+                                <a
+                                    href="#about"
                                     className="block text-[15px] text-white no-underline"
                                 >
                                     About Us
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a 
-                                    href="#training" 
+                                <a
+                                    href="#training"
                                     className="block text-[15px] text-white no-underline"
                                 >
                                     Training Programs
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a 
-                                    href="#services" 
+                                <a
+                                    href="#services"
                                     className="block text-[15px] text-white no-underline"
                                 >
                                     Services
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a 
-                                    href="#projects" 
+                                <a
+                                    href="#projects"
                                     className="block text-[15px] text-white no-underline"
                                 >
                                     Projects
@@ -236,16 +236,16 @@ const Footer = () => {
                     <div className="w-full md:w-2/12 px-3 md:px-4 md:border-r md:border-gray-600 md:pr-8">
                         <ul id="menu-footer-menu-right" className="menu list-none flex flex-col items-end md:items-start">
                             <li className="menu-item">
-                                <a 
-                                    href="#certification" 
+                                <a
+                                    href="#certification"
                                     className="block text-[15px] text-white no-underline"
                                 >
                                     Certification
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a 
-                                    href="https://www.akgecskills.in/app/registration/" 
+                                <a
+                                    href="https://www.akgecskills.in/app/registration/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block text-[15px] text-white no-underline"
@@ -254,8 +254,8 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a 
-                                    href="#gallery" 
+                                <a
+                                    href="#gallery"
                                     className="block text-[15px] text-white no-underline"
                                 >
                                     Photo Gallery
@@ -264,15 +264,15 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                     {/* Column 4 - Follow Us */}
-                     <div className="w-full md:w-2/12 px-3 md:px-4 md:pr-8">
+                    {/* Column 4 - Follow Us */}
+                    <div className="w-full md:w-2/12 px-3 md:px-4 md:pr-8">
                         <h4 className="font-['Oswald',sans-serif] text-xl mb-3 mt-0 font-medium leading-tight text-white">Follow Us</h4>
                         <ul className="flex list-none gap-2">
                             <li>
-                                <a 
-                                    href="https://www.facebook.com/advance.manufacturing.5" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer" 
+                                <a
+                                    href="https://www.facebook.com/advance.manufacturing.5"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="w-6 h-6 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="Facebook"
                                 >
@@ -280,10 +280,10 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a 
-                                    href="https://twitter.com/" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer" 
+                                <a
+                                    href="https://twitter.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="w-6 h-6 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="Twitter"
                                 >
@@ -291,10 +291,10 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a 
-                                    href="https://linkedin.com/" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer" 
+                                <a
+                                    href="https://linkedin.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="w-6 h-6 py-1.5 m-0 inline-flex items-center justify-center"
                                     title="LinkedIn"
                                 >

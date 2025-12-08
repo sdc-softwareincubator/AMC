@@ -13,8 +13,8 @@ const SuccessStoryCard = ({ image, name, position, email }: SuccessStoryCardProp
       <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow text-center">
         {/* Image */}
         <div className="mb-0">
-          <img 
-            src={image} 
+          <img
+            src={image}
             alt={name}
             className="w-full h-64 object-cover"
             onError={(e) => {
@@ -125,7 +125,7 @@ const SuccessStories = () => {
 
   useEffect(() => {
     const maxTranslateX = (totalPages - 1) * 100
-    
+
     const interval = setInterval(() => {
       setTranslateX((prev) => {
         const next = prev + 100
@@ -137,7 +137,7 @@ const SuccessStories = () => {
         setCurrentPage(newPage)
         return next
       })
-    }, 4000) 
+    }, 4000)
     return () => clearInterval(interval)
   }, [totalPages])
 
@@ -148,25 +148,25 @@ const SuccessStories = () => {
   }
 
   return (
-    <section id="success-stories" className="kc-elm kc-row w-full py-10 md:py-16 bg-gray-200/70">
-      <div className="kc-row-container kc-container max-w-7xl mx-auto px-4 md:px-6">
-        <div className="kc-wrap-columns w-full">
-          <div className="kc-elm kc_col-sm-12 kc_column kc_col-sm-12 w-full">
-            <div className="kc-col-container w-full">
+    <section id="success-stories" className="w-full py-10 md:py-16 bg-gray-200/70">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="w-full">
+          <div className="w-full">
+            <div className="w-full">
               {/* Title Section */}
-              <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+              <div className="text-center mb-4">
+                <h3 className="mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                   Success Stories
                 </h3>
               </div>
 
               {/* Divider Line */}
-              <div className="kc-elm divider_line yline flex justify-center mb-6">
-                <div className="divider_inner divider_line1 bg-yellow-400 h-1 w-16 md:w-20"></div>
+              <div className="flex justify-center mb-6">
+                <div className="bg-yellow-400 h-1 w-16 md:w-20"></div>
               </div>
 
               {/* Introductory Text */}
-              <div className="kc-elm kc_text_block text-center mb-10 md:mb-12">
+              <div className="text-center mb-10 md:mb-12">
                 <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
                   The Centre, in its endeavour to produce highly skilled manpower for industries, has created many success stories where trainees were immensely benefitted with the training programs to make their career and become successful in life.
                 </p>
@@ -174,7 +174,7 @@ const SuccessStories = () => {
 
               {/* Carousel Container */}
               <div className="relative overflow-hidden mb-6">
-                <div 
+                <div
                   ref={carouselRef}
                   className="flex transition-transform duration-700 ease-in-out"
                   style={{
@@ -221,9 +221,8 @@ const SuccessStories = () => {
                       setTranslateX(index * 100)
                       setCurrentPage(index)
                     }}
-                    className={`w-3 h-3 rounded-full transition-colors ${
-                      currentPage === index ? 'bg-black' : 'bg-gray-400'
-                    }`}
+                    className={`w-3 h-3 rounded-full transition-colors ${currentPage === index ? 'bg-black' : 'bg-gray-400'
+                      }`}
                     aria-label={`Go to page ${index + 1}`}
                   />
                 ))}

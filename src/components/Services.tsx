@@ -27,25 +27,25 @@ const Services = () => {
   ]
 
   return (
-    <section id="services" className="kc-elm kc-row w-full py-10 md:py-16">
-      <div className="kc-row-container kc-container max-w-7xl mx-auto px-4 md:px-6">
-        <div className="kc-wrap-columns w-full">
-          <div className="kc-elm kc_col-sm-12 kc_column kc_col-sm-12 w-full">
-            <div className="kc-col-container w-full">
+    <section id="services" className="w-full py-10 md:py-16">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="w-full">
+          <div className="w-full">
+            <div className="w-full">
               {/* Title Section */}
-              <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+              <div className="text-center mb-4">
+                <h3 className="mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                   Services
                 </h3>
               </div>
 
               {/* Divider Line */}
-              <div className="kc-elm divider_line yline flex justify-center mb-6">
-                <div className="divider_inner divider_line1 bg-yellow-400 h-1 w-16 md:w-20"></div>
+              <div className="flex justify-center mb-6">
+                <div className="bg-yellow-400 h-1 w-16 md:w-20"></div>
               </div>
 
               {/* Introductory Text */}
-              <div className="kc-elm kc_text_block text-center mb-10 md:mb-12">
+              <div className="text-center mb-10 md:mb-12">
                 <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
                   The Centre is committed to provide solutions for production of complex parts and assemblies to the industries using high end engineering technologies for improving the quality, productivity and competitiveness in the field of Machining, Dimension Measurement and Inspection technology.
                 </p>
@@ -54,7 +54,7 @@ const Services = () => {
               {/* Services Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                 {services.map((service, index) => (
-                  <div 
+                  <div
                     key={index}
                     className="p-6 md:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow min-h-[300px] flex flex-col"
                     style={{ backgroundColor: service.bgColor }}
@@ -65,7 +65,7 @@ const Services = () => {
                     <p className={`text-sm md:text-base mb-6 leading-relaxed flex-grow ${service.textColor}`}>
                       {service.description}
                     </p>
-                    <a 
+                    <a
                       href="#"
                       className={`inline-block px-6 py-2 text-sm font-semibold rounded border-2 transition self-start ${service.buttonStyle}`}
                     >

@@ -12,8 +12,8 @@ const ProjectCard = ({ image, title, description }: ProjectCardProps) => {
       <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 h-full">
         {/* Image Section */}
         <div className="relative h-48 overflow-hidden">
-          <img 
-            src={image} 
+          <img
+            src={image}
             alt={title}
             className="w-full h-full object-cover"
             onError={(e) => {
@@ -27,7 +27,7 @@ const ProjectCard = ({ image, title, description }: ProjectCardProps) => {
             </h3>
           </div>
         </div>
-        
+
         {/* Light Gray Section with Description */}
         <div className="bg-gray-200/80 p-4 relative min-h-[120px] rounded-b-lg">
           <div className="space-y-2 pr-8 mb-4">
@@ -38,9 +38,9 @@ const ProjectCard = ({ image, title, description }: ProjectCardProps) => {
           {/* Icon at bottom */}
           <div className="mt-4 pt-4 border-t border-gray-300">
             <a href="#" title="" target="_self">
-                     <img
-                       src="/Images/infra-1.png"
-                alt="Infrastructure" 
+              <img
+                src="/Images/infra-1.png"
+                alt="Infrastructure"
                 className="h-8 w-auto"
                 onError={(e) => {
                   (e.target as HTMLImageElement).style.display = 'none'
@@ -78,10 +78,10 @@ const Projects = () => {
 
   useEffect(() => {
     const numVisibleCards = 3
-    const totalCards = projects.length 
+    const totalCards = projects.length
     const cardWidthPercentage = 100 / numVisibleCards
-    const maxTranslateX = (totalCards - numVisibleCards) * cardWidthPercentage 
-    
+    const maxTranslateX = (totalCards - numVisibleCards) * cardWidthPercentage
+
     const interval = setInterval(() => {
       setTranslateX((prev) => {
         const next = prev + cardWidthPercentage
@@ -90,30 +90,30 @@ const Projects = () => {
         }
         return next
       })
-    }, 4000) 
+    }, 4000)
     return () => clearInterval(interval)
   }, [projects.length])
 
   return (
-    <section id="projects" className="kc-elm kc-row w-full py-10 md:py-16 bg-white relative overflow-hidden">
-      <div className="kc-row-container kc-container max-w-7xl mx-auto px-4 md:px-6">
-        <div className="kc-wrap-columns w-full">
-          <div className="kc-elm kc_col-sm-12 kc_column kc_col-sm-12 w-full">
-            <div className="kc-col-container w-full">
+    <section id="projects" className="w-full py-10 md:py-16 bg-white relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="w-full">
+          <div className="w-full">
+            <div className="w-full">
               {/* Title Section */}
-              <div className="kc-elm kc-title-wrap text-center mb-4">
-                <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+              <div className="text-center mb-4">
+                <h3 className="mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                   Projects
                 </h3>
               </div>
 
               {/* Divider Line */}
-              <div className="kc-elm divider_line yline flex justify-center mb-6">
-                <div className="divider_inner divider_line1 bg-yellow-400 h-1 w-16 md:w-20"></div>
+              <div className="flex justify-center mb-6">
+                <div className="bg-yellow-400 h-1 w-16 md:w-20"></div>
               </div>
 
               {/* Introductory Text */}
-              <div className="kc-elm kc_text_block text-center mb-10 md:mb-12">
+              <div className="text-center mb-10 md:mb-12">
                 <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
                   The Centre undertake Industry projects in the field of CNC turning, milling and grinding technology with an aim of providing quality engineering solutions for the challenges faced by the Industries in the field of Manufacturing
                 </p>
@@ -121,7 +121,7 @@ const Projects = () => {
 
               {/* Carousel Container */}
               <div className="relative overflow-hidden">
-                <div 
+                <div
                   ref={carouselRef}
                   className="flex transition-transform duration-700 ease-in-out"
                   style={{

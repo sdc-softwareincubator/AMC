@@ -49,29 +49,29 @@ const Gallery = () => {
   ]
 
   return (
-    <section id="gallery" className="kc-elm kc-row w-full py-10 md:py-16 bg-white">
-      <div className="kc-row-container kc-container max-w-7xl mx-auto px-4 md:px-6">
-        <div className="kc-wrap-columns w-full">
-          <div className="kc-elm kc_col-sm-12 kc_column kc_col-sm-12 w-full">
-            <div className="kc-col-container w-full">
+    <section id="gallery" className="w-full py-10 md:py-16 bg-white">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="w-full">
+          <div className="w-full">
+            <div className="w-full">
               {/* Two Column Layout: Gallery Left, News Right */}
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 items-start">
                 {/* Left Column - Photo Gallery (2/3 width) */}
                 <div className="lg:col-span-2">
                   {/* Title Section */}
-                  <div className="kc-elm kc-title-wrap mb-4">
-                    <h3 className="kc_title mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
+                  <div className="mb-4">
+                    <h3 className="mb-3 text-3xl font-bold leading-tight text-[#029896] font-['Oswald',sans-serif]">
                       Photo Gallery
                     </h3>
                   </div>
 
                   {/* Divider Line */}
-                  <div className="kc-elm divider_line yline mb-6">
-                    <div className="divider_inner divider_line1 bg-yellow-400 h-1 w-16 md:w-20"></div>
+                  <div className="mb-6">
+                    <div className="bg-yellow-400 h-1 w-16 md:w-20"></div>
                   </div>
 
                   {/* Introductory Text */}
-                  <div className="kc-elm kc_text_block mb-6 md:mb-8">
+                  <div className="mb-6 md:mb-8">
                     <p className="p1 text-gray-800 text-base md:text-lg leading-relaxed font-normal">
                       The trainees enjoy comfortable stay with 24 hours power back up & unlimited Internet facility including nutritious food on payment basis.The facility is endowed with good lighting and sufficient ventilation.
                     </p>
@@ -85,12 +85,12 @@ const Gallery = () => {
                   >
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
                       {visibleImages.map((image, index) => (
-                        <div 
+                        <div
                           key={`${currentPage}-${index}`}
                           className="relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow group"
                         >
-                          <img 
-                            src={image} 
+                          <img
+                            src={image}
                             alt={`Gallery Image ${start + index + 1}`}
                             className="w-full h-48 md:h-56 object-cover group-hover:scale-110 transition-transform duration-300"
                             onError={(e) => {
@@ -107,9 +107,8 @@ const Gallery = () => {
                         <button
                           key={index}
                           onClick={() => setCurrentPage(index)}
-                          className={`w-2 h-2 rounded-full transition-colors ${
-                            currentPage === index ? 'bg-gray-800' : 'bg-gray-300'
-                          }`}
+                          className={`w-2 h-2 rounded-full transition-colors ${currentPage === index ? 'bg-gray-800' : 'bg-gray-300'
+                            }`}
                           aria-label={`Go to page ${index + 1}`}
                         />
                       ))}
@@ -117,7 +116,7 @@ const Gallery = () => {
 
                     {/* View All Button */}
                     <div className="text-center">
-                      <a 
+                      <a
                         href="#"
                         className="inline-block px-6 py-2 text-sm border-2 border-yellow-400 text-yellow-600 rounded-md hover:bg-yellow-400 hover:text-white transition-all duration-300 font-medium"
                       >
@@ -130,10 +129,10 @@ const Gallery = () => {
                 {/* Right Column - Latest News (1/3 width) */}
                 <div className="lg:col-span-1">
                   {/* Latest News Card - aligned with gallery images using top margin */}
-                  <aside 
+                  <aside
                     className="w-full lg:mt-[140px]"
-                    style={{ 
-                      backgroundColor: '#19396C', 
+                    style={{
+                      backgroundColor: '#19396C',
                       color: '#ffffff',
                       padding: '15px',
                       paddingBottom: '20px',
@@ -141,7 +140,7 @@ const Gallery = () => {
                     }}
                   >
                     <div className="flex justify-between items-center mb-4">
-                      <h2 style={{ 
+                      <h2 style={{
                         color: '#ffffff',
                         fontSize: '18px',
                         marginBottom: '0px',
@@ -149,22 +148,22 @@ const Gallery = () => {
                         fontWeight: 500,
                         lineHeight: 1.2
                       }}>Latest News</h2>
-                      <a 
-                        href="#" 
+                      <a
+                        href="#"
                         className="px-3 py-1 text-xs border border-white text-white rounded-md hover:bg-white hover:text-[#19396C] transition-all duration-300 font-medium"
                       >
                         All News
                       </a>
                     </div>
-                    
+
                     <div className="space-y-3">
                       {newsItems.map((item, index) => (
-                        <div 
+                        <div
                           key={index}
                           className={index < newsItems.length - 1 ? "border-b border-white/30 pb-3" : ""}
                         >
                           <h3 className="mb-1.5">
-                            <a 
+                            <a
                               href={item.link}
                               style={{
                                 display: 'block',
