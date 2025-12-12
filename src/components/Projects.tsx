@@ -96,7 +96,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="w-full py-10 md:py-16 bg-white relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 md:px-6">
+      <div className="mx-auto sm:my-6 my-3 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-20 max-w-screen">
         <div className="w-full">
           <div className="w-full">
             <div className="w-full">

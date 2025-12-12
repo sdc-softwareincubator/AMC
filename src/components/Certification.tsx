@@ -1,7 +1,7 @@
 const Certification = () => {
   return (
     <section id="certification" className="w-full py-6 md:py-8 bg-gray-200/70">
-      <div className="max-w-7xl mx-auto px-4 md:px-6">
+      <div className="mx-auto sm:my-6 my-3 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-20 max-w-screen">
         <div className="w-full">
           <div className="flex flex-col md:flex-row -mx-3 md:-mx-4">
             {/* Left Column */}

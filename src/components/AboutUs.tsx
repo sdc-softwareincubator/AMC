@@ -1,6 +1,6 @@
 const AboutUs = () => {
   return (
-    <section id="about" className="w-full sm:my-6 my-3 px-4 md:px-8 lg:px-16 xl:px-24">
+    <section id="about" className="mx-auto sm:my-6 my-3 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-20 max-w-screen">
       <div className="max-w-7xl mx-auto">
         <div className="w-full">
           <div className="w-full">
